@@ -1,0 +1,164 @@
+
+.main-body {
+    margin: 25px auto;
+    width: 1200px;
+}
+
+.order-status {
+    background-color: #fffceb;
+    border: 1px solid #d5d5d5;
+    padding: 25px 50px;
+}
+
+.order-status h2 {
+    font-size: 16px;
+    font-weight: bold;
+    display:inline-block;
+    line-height: 30px;
+}
+
+.order-status .section1 {
+    display: inline-block;
+    float:right;
+}
+
+.order-status .section1 h3 {
+    font-size: 14px;
+    font-weight: bold;
+
+    background: #f63b3b none repeat scroll 0 0;
+    border: 1px none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 75px;
+}
+
+.order-detail {
+    border: 1px solid #d5d5d5;
+    margin: 55px 0 20px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.order-detail h2 {
+    background: #fff;
+    border: 1px solid #d5d5d5;
+    border-bottom: 0;
+    font-size: 16px;
+    font-weight: bold;
+    left: 30px;
+    padding: 7px 20px;
+    position: absolute;
+    top: -33px;
+    width: 70px;
+}
+
+.detail-bd {
+    padding: 0 50px;
+}
+
+.detail-bd h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 35px;
+}
+
+.detail-bd li {
+    padding: 6px 0;
+}
+
+.detail-bd li label {
+    display: inline-block;
+    width: 240px;
+}
+
+.detail-table {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.detail-table th, .detail-table td {
+    border: 1px solid #fff;
+    padding: 5px;
+    text-align: center;
+    vertical-align: top;
+}
+.detail-table th {
+    background: #e9e9e9 none repeat scroll 0 0;
+}
+.detail-table-score {
+    width: 130px;
+}
+.detail-table td {
+    padding: 10px 0;
+}
+
+
+.detail-table td.baobei {
+    text-align: left;
+    width: 400px;
+}
+
+.detail-table td.baobei .pic {
+    display: inline;
+    float: left;
+    margin: 5px 10px 0 0;
+}
+
+.detail-table td.baobei .pic img {
+    height: 55px;
+    width: 55px;
+}
+
+
+.detail-table td.baobei .name {
+    display: block;
+    margin: 5px 0;
+}
+
+.cyan-icon {
+    background: #7abd54 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    height: 19px;
+    line-height: 19px;
+    margin-right: 2px;
+    padding: 0 3px;
+}
+
+
+
+.orange, a.orange {
+    color: #f63b3b;
+}
+
+
+/*物流css*/
+
+#ordertrack, #orderinfo {  color: #333;  }
+#ordertrack {  border: 1px solid #e6e6e6;  position: relative;  }
+#ordertrack, {  color: #333;  }
+
+.detail-bd #ordertrack li{padding:0px}
+#ordertrack ul li {font-size:15px;font-weight:700}
+#ordertrack .tab {  background: #e6e6e6 none repeat scroll 0 0;  border-bottom: 1px solid #e6e6e6;  height: 30px;  line-height: 30px;  overflow: visible;  }
+.detail-bd #odertrack  li｛padding:0px｝
+                                   #ordertrack .tab li {  border-right: 1px solid #e6e6e6;  cursor: pointer;  }
+#ordertrack .tab li h5 {  color: #999;  float: left;  height: 30px;  padding: 0 8px;  }
+#ordertrack .tab .curr h5 {  background: #fff none repeat scroll 0 0;  color: #333;  height: 31px;  position: relative;  }
+.clr {  clear: both;  display: block;  font-size: 0;  height: 0;  line-height: 0;  overflow: hidden;  }
+#ordertrack .tabcon { padding: 5px 13px;  }
+#ordertrack th strong {  border-bottom: 1px solid #dbdbdb;  display: block;  margin-bottom: 5px;  padding-bottom: 3px;  text-align: left;  }
+#ordertrack td { vertical-align: middle;height:23px;line-height:23px;  }
+.tab li, .tab a, .tab-item {  float: left;  text-align: center;  }
+.m, .sm {  margin-bottom: 10px;  }
+#ordertrack .tab li {  border-right: 1px solid #e6e6e6;  cursor: pointer;  }
+#ordertrack .mc .extra {  margin-top: 10px;  }
+.tabcon table tr td{padding:8px auto;}

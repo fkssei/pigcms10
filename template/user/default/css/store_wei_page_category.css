@@ -1,0 +1,46 @@
+.ui-search-box {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    z-index: 10;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.ui-search-box .txt {
+    width: 70px;
+    height: 16px;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 16px;
+    border: 1px solid #ddd;
+    margin: 0;
+    padding-left: 20px;
+    background: #fff url("../images/ico-search.png") 4px center no-repeat;
+    background-image: -webkit-image-set(url("../images/ico-search.png") 1x, url("../images/ico-search@2x.png") 2x);
+    border-radius: 2px;
+    -webkit-transition: width linear 0.25s;
+    -moz-transition: width linear 0.25s;
+    transition: width linear 0.25s;
+}
+.ui-table.ui-table-list {
+    border: none;
+	border:1px solid #ccc;
+}
+a.new-window {
+    color: #4a4a4a;
+}
+.ui-table .cell-40 {
+    width: 40%;
+}
+.ui-table .cell-20 {
+    width: 20%;
+}
+.ui-table .cell-25 {
+    width: 25%;
+}
+a {
+    color: #07d;
+    text-decoration: none;
+}
+.ui-search-box .txt:focus{border-color:#aaa;outline:none;width:180px;}

@@ -1,0 +1,212 @@
+.ui-nav-table {
+	position: relative;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+
+.ui-nav-table ul {
+	zoom: 1;
+	margin-bottom: -1px;
+	margin-left: 1px;
+}
+.pull-left {
+	float: left;
+}
+.ui-nav-table li {
+	float: left;
+	margin-left: -1px;
+}
+
+.ui-nav-table li.active a {
+	border-color: #ccc #ccc #fff;
+
+	background: #fff;
+	color: #07d;
+}
+
+.ui-nav-table li a {
+	display: inline-block;
+	padding: 0 12px;
+	line-height: 40px;
+	color: #333;
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+	min-width: 80px;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+.page-present .app-present .present-sub-title {
+	padding: 10px 30px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.page-present .control-group {
+	position: relative;
+}
+
+.page-present .app-present .control-group .w30 {
+	width: 30px;
+}
+
+.ui-block-head-help {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+}
+.soldout-help {
+    top: 7px;
+	left: 215px;
+}
+.ui-block-head-help>a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 18px;
+    border-radius: 8px;
+    font-size: 12px;
+    text-align: center;
+    background: #bbb;
+    color: #fff;
+}
+.ui-block-head-help>a:after {
+    content: "?";
+}
+.soldout-help>a:hover{background:#4b0;}
+.popover-help-notes .popover-content {
+    line-height: 18px;
+}
+
+.controls .add-present {
+	height: 30px;
+	line-height: 30px;
+	margin: 10px 0;
+	background: #fff;
+}
+
+.popover.right .arrow {
+	top: 50%;
+	left: -10px;
+	margin-top: -5px;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-right: 5px solid #000000;
+}
+.popover.right .arrow:after {
+	bottom: -10px;
+	left: 1px;
+	border-right-color: #ffffff;
+	border-left-width: 0;
+}
+
+a {
+color: #07d;
+text-decoration: none;
+}
+
+.controls .ui-btn-success {
+	color: #fff;
+	background: #4b0;
+	border-color: #3da900;
+}
+
+
+.ui-btn-success:hover{
+	background: #55D00F;
+	color: #fff;
+}
+
+
+.ump-select-box {
+	width: 790px;
+	border: 1px solid #ddd;
+	margin: 0 25px;
+	overflow: hidden;
+	background: #fff;
+}
+
+.ump-select-search {
+	padding: 10px 20px 10px;
+	border-bottom: 1px solid #ccc;
+	background: #fff;
+}
+
+.ump-select-goods .ui-table tr td {
+	border-bottom: 1px dashed #ddd;
+	vertical-align: middle;
+}
+
+.ump-select-search select {
+	width: 200px;
+	margin-right: 10px;
+}
+
+.ump-select-search input {
+	width: 200px;
+	margin-right: 10px;
+}
+
+.ump-select-goods .goods-meta a {
+	color: #6289ff;
+}
+
+.ump-select-footer {
+	padding: 0 20px 0 10px;
+}
+
+.ui-table.ui-table-list {
+	border: none;
+}
+
+.control-group table.reward-table{background:#fff;width:100%}
+.control-group .reward-table-wrap {
+    padding-left: 50px;
+}
+.control-group .reward-table tr {
+    border: 1px solid #ddd;
+}
+.control-group .reward-table tr th {
+    line-height: 36px;
+    background: #fff;
+}
+.control-group .reward-table .controls .checked-status {
+     margin-top: 10px;
+ }
+.control-group table.reward-table tr td .reward-controls {
+    padding-left: 20px;
+    line-height: 40px;
+}
+ .app-reward .label-text {
+    line-height: 24px;font-size:14px;
+}
+.ump-select-tab {
+    width: 790px;
+    margin-left: 50px;
+    margin-bottom: -1px;
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+}
+.js-goods-box{display:none}
+.js-goods-box .ui-nav-tab {width:790px;  border-bottom: 1px solid #ddd;  margin-bottom: 15px;  font-size: 14px;  font-weight: bold;  zoom: 1;  }
+.js-goods-box .ump-select-tab .ui-nav-tab {  margin-bottom: 0;  border-bottom: none;  }
+
+.ui-nav-tab>li {  position: relative;  display: block; float: left;text-align: center;margin-bottom: -1px;  }
+.ump-select-tab .ui-nav-tab li.active a, .ump-select-tab .ui-nav-tab li.active a:hover {  height: 24px;  line-height: 24px;  border-bottom: 2px solid #f60;  }
+.ump-select-tab .ui-nav-tab li a {  width: 120px;  border-top: 0;  height: 25px;  line-height: 25px;  padding: 8px 20px;  }
+.ump-select-tab .ui-nav-tab>li {  width: auto  }
+.ump-select-tab .ui-nav-tab{padding-top: 0px;}
+.add-reward-toolbar{display:none}
+.app-reward .ump-select-box{margin-left:50px}
+.reward-setting  .controls span { line-height: 32px;  }
+.replace-status{display:none}
+
+
+
+
+
+

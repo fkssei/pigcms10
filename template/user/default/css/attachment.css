@@ -1,0 +1,8 @@
+.app .table {
+	table-layout: fixed;
+	background:rgba(255,255,255,1.0);
+	border:1px solid #ccc;
+}
+.app .table .tb-pic {
+width: 120px;
+}

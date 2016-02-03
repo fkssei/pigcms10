@@ -1,0 +1,185 @@
+.WX_search {
+background-color: #EFEFEF;
+height: 44px;
+position: relative;
+z-index: 300;
+border-bottom: 1px solid #ddd;
+}
+.WX_bar_cate, .WX_bar_back {
+position: absolute;
+top: 0;
+left: 0;
+height: 44px;
+min-width: 50px;
+}
+.WX_bar_cate a, .WX_bar_back a {
+overflow: hidden;
+display: block;
+height: 44px;
+font-size: 16px;
+padding-left: 44px;
+padding-right: 6px;
+text-indent: -6px;
+}
+.WX_btn_search:after, .WX_btn_my:after, .WX_search_clear, .WX_me_btn:after, .WX_bar_cate a:after, .WX_bar_back a:after, .WX_me_refresh, .WX_me_pop:before, .WX_me_item a:before {
+background-image: url(img/icon_bar.png);
+background-repeat: no-repeat;
+background-size: 220px 132px;
+-webkit-background-size: 220px 132px;
+}
+.WX_bar_cate a:after, .WX_bar_back a:after {
+content: '\20';
+display: block;
+height: 44px;
+width: 44px;
+background-position: -88px 0;
+position: absolute;
+top: 0;
+left: 0;
+}
+.WX_bar_cate a:after {
+background-position: 0 -44px;
+}
+.WX_search_frm, .WX_search_txt {
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+.WX_search_frm {
+height: 45px;
+padding: 0 10px 0 43px;
+}
+.WX_search_txt {
+background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAABi0lEQVR42s2XsU4CQRRFoXGREmOxW1ASAgWfsEqt/2FhLTV+A4mSDf1+hNFEgrEhJsTC2Gmx/AHJWrjeSe4mEzLgDLMDS3ICmffevWFmduZtpVLmTxzHLXADHkACUpJwTMRaRRqG4Blkmojc0MawBu7BLwU/wQRcggB4JODYhDkZa0RtzdS0AV6kf3EHqhp1VebmdUKjoWtaB68sfAPdHWary9qMWnWdoogFczGNFksVUENoRTobKV/TdgEbsy2tebgtcZqvaYFPRb7m000JPSYsHJwBC2r3VMEhgyMHxiNqD1XBRwb7Doz71H5SBRMGAwfGAbUTVTBl0HNg7FE7LZXxwaba5eY637a59vE43ZbnADnYkam4JDoFmHakS+Lsv+SxdC36FqY++KLW2LQRmFs0At/UWIGmbuGJZG605mutz4rf7+BUV+B4rdn7YHdywWk8Ij7HIubIzV6Tpmbm0oabGbS3M3kjCbOdzaU2ZsATbgl+yJJjg03tkrW55aNVGvPrfb+DCfMr8fsPcg6fmHF/AckAAAAASUVORK5CYII=);
+}
+.WX_search_txt {
+float: left;
+width: 100%;
+padding: 0 30px 0 31px;
+display: block;
+height: 30px;
+border-radius: 3px;
+border: 0 none;
+margin-top: 7px;
+background-color: #fff;
+background-repeat: no-repeat;
+background-position: 8px 50%;
+background-size: 15px 15px;
+-webkit-background-size: 15px 15px;
+-webkit-appearance: none;
+font-size: 14px;
+}
+.WX_search_clear {
+width: 22px;
+height: 22px;
+padding: 4px;
+color: transparent;
+position: absolute;
+z-index: 2;
+right: 10px;
+top: 7px;
+background-origin: content-box;
+background-position: -176px -11px;
+}
+.WX_search_frm_focus .WX_search_clear {
+right: 50px;
+}
+.WX_me {
+position: absolute;
+top: 0;
+right: 0;
+width: 50px;
+height: 44px;
+}
+.WX_search_btn_blue {
+height: 30px;
+overflow: hidden;
+line-height: 30px;
+display: inline-block;
+text-align: center;
+background-color: #007AFF;
+color: #FFF;
+margin-top: 7px;
+margin-left: 6px;
+padding: 0 5px;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+}
+.WX_search_btn {
+height: 44px;
+overflow: hidden;
+line-height: 44px;
+font-size: 16px;
+display: block;
+text-align: center;
+color: #007AFF;
+}
+.WX_search_frm_focus {
+padding-right: 50px !important;
+}
+
+
+.wx_nav {
+display: box;
+display: -ms-box;
+display: -webkit-box;
+display: flex;
+display: -ms-flexbox;
+display: -webkit-flex;
+}
+.wx_nav {
+overflow: hidden;
+height: 49px;
+border-top: 1px solid #ddd;
+position: fixed;
+z-index: 900;
+width: 100%;
+bottom: 0;
+left: 0;
+}
+.wx_nav a {
+display: block;
+flex: 1;
+-ms-flex: 1;
+-webkit-flex: 1;
+box-flex: 1;
+-ms-box-flex: 1;
+-webkit-box-flex: 1;
+}
+.wx_nav a {
+position: relative;
+width: 200px;
+height: 45px;
+padding-top: 4px;
+color: #999;
+font-size: 12px;
+background-color: #eee;
+text-align: center;
+}
+.wx_nav a:before {
+background-image: url(img/icon_nav.png);
+background-repeat: no-repeat;
+background-size: 207px 46px;
+-webkit-background-size: 207px 46px;
+}
+.wx_nav a:before {
+width: 23px;
+height: 23px;
+content: '\20';
+display: block;
+margin: 0 auto 2px auto;
+}
+.wx_nav .nav_index:before {
+background-position: 0 0;
+}
+.wx_nav .nav_search:before {
+background-position: -46px 0;
+}
+.wx_nav .nav_shopcart:before {
+background-position: -138px 0;
+}
+.wx_nav .nav_me:before {
+background-position: -69px 0;
+}
+.wx_nav a:active:before, .wx_nav a.on:before {
+background-position-y: -23px;
+}

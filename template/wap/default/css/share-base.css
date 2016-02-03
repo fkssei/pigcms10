@@ -1,0 +1,267 @@
+body, html {margin: 0;padding: 0;width: 100%;height: 100%;font-family: Microsoft YaHei,avenir,arial;-webkit-tap-highlight-color: rgba(0,0,0,0);line-height: 1.5;font-size: 14px;}
+section,footer,nav,em,mark,p,span,ul,li,ol,h1,h2,h3,h4,input,textarea{margin: 0;padding: 0;font-weight: normal;list-style: none;font-style: normal;color: #000;}
+a, span, h3, i, input {color: #333;outline-style: none;text-decoration: none;display: inline-block;}
+div{display: block;}
+body {background-color: #efefef;}
+select, input, textarea {outline:none}
+
+/*位置*/
+.left {float: left;}
+.right {float: right;}
+.t_left {text-align: left!important;}
+.t_right {text-align: right!important;}
+.t_center {text-align: center!important;}
+
+/*字体大小*/
+.f12 {font-size: 12px;}
+.f14 {font-size: 14px;!important;}
+.f15 {font-size: 15px;}
+.f16 {font-size: 16px;}
+.f18 {font-size: 18px;}
+.f20 {font-size: 20px;}
+
+/*字体颜色*/
+.black {color: #000;}
+.tint-black {color: #333!important;}
+.deep-orange {color: #f60!important;}
+.tint-gray {color: #ccc;}
+.gray {color: #666;}
+.red {color: #cd0001;}
+.deep-gray {color: #999;}
+.tint-blue {color: #6699cc;}
+.green {color: #00cc00;}
+
+/*字体样式*/
+.t_lt {text-decoration: line-through;}
+.bold {font-weight: bold;}
+
+/*布局*/
+.row:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-12 {float: left;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-12 {width: 100%;}
+
+/*按钮*/
+.btn, .btn:link, .btn:visited {display: block;text-align: center;font-size: 14px;color: #666;padding: 4px 0;border-radius: 3px;}
+.btn-small, .btn-small:link, .btn-small:visited {text-align: center;color: #333;font-size: 13px;border-radius: 3px;padding: 1px 8px;}
+.btn-big, .btn-big:link, .btn-big:visited {text-align: center;font-size: 14px;color: #000;border: 1px solid #ddd;border-radius: 3px;padding: 4px 8px;}
+.btn-big.btn-bigger {padding: 4px 18px;}
+.btn-warning, .btn-warning:link, .btn-warning:visited {background-color: #ff6700;color: #fff;border: 1px solid #ff6700;}
+.btn-warning-border, .btn-warning-border:link, .btn-warning-border:visited {border: 1px solid #ff6700;color: #ff6700;}
+.btn-white, .btn-white:link, .btn-white:visited {border: 1px solid #ddd;border-radius: 3px;color: #666;}
+.btn-green, .btn-green:link, .btn-green:visited {border: 1px solid #33cc33;border-radius: 3px;color: #33cc33;}
+.btn-contact, .btn-contact:link, .btn-contact:visited {
+    border: 1px solid #ededed;
+    background-color: #f8f8f8;
+    background-image: -moz-linear-gradient(top, #FFFFFF, #f8f8f8); /* Firefox */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #f8f8f8)); /* Saf4+, Chrome */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#f8f8f8', GradientType='0'); /* IE*/
+}
+.btn-contact i, .btn-contact i:link, .btn-contact i:visited {color: #6699cc;font-size: 14px;line-height: 1;}
+
+/*input*/
+.form-control {position: relative;background-color: #eeeeee;width: 100%;overflow: hidden;margin-bottom: 10px;box-sizing: border-box;-moz-box-sizing: border-box; /* Firefox */-webkit-box-sizing: border-box; /* Safari */}
+.form-control .th {font-size: 14px;line-height: 1;color: #999;width: 75px;text-align: left;position: absolute;top: 50%;margin-top: -6px;left: 10px;display: block;}
+.form-control .th.require {left: 20px;}
+.form-control .th.require:before {content: "*";color: #ff3300;font-size: 14px;position: absolute;display: block;top: 50%;margin-top: -6px;left: -10px;}
+.form-control div.input {margin-left: 100px;}
+.form-control select, .form-control input {width: 100%;font-size: 14px;color: #000;padding: 10px 10px 10px 0;background-color: #eee;display: block;border-width: 0;box-sizing: border-box;-moz-box-sizing: border-box; /* Firefox */-webkit-box-sizing: border-box; /* Safari */-webkit-appearance : none;-moz-appearance : none;}
+.form-control div.input.require-price {margin-left: 120px;}
+.form-control div.input.require-price input {padding-left: 3px;}
+.form-control div.input.require-price:before {content: "¥";position: absolute;top: 50%;margin-top: -10px;left: 110px;font-size: 14px;color: #999;}
+textarea.form-control  {height: 108px;padding: 10px;border-width: 0;color: #999;font-size: 14px;resize: none;}
+.form-control .arrow {position: absolute;right: 10px;top: 50%;margin-top: -12px;}
+.form-control .arrow i {font-size: 16px;color: #000;}
+
+/*tips*/
+.tips {position: fixed;background-color: #333;z-index: 999;top: 50%;left: 50%;border-radius: 4px;box-shadow: 0 0 8px #636363;padding: 8px 16px;color: #fff;font-size: 14px;}
+
+/*select*/
+.select {color: #999;font-size: 16px;}
+.select.selected {color: #66cc00;}
+
+/*label*/
+.label {position: relative;padding: 10px;border-radius: 3px;background-color: #fff;}
+.label label {position: absolute;left: 10px;top: 50%;margin-top: -24px;}
+.label label i {font-size: 32px;color: #666;}
+.label .word {margin-left: 42px;}
+.label .word p {color: #666;}
+.label-primary {background-color: #659bcc;}
+.label-warning {background-color: #fd6801;}
+.label-success {background-color: #32cd00;}
+.label-primary label i, .label-primary .word p, .label-warning label i, .label-warning .word p, .label-success label i, .label-success .word p {color: #fff;}
+
+/*dialog*/
+.dialog {position: fixed;width: 100%;height: 100%;display: none;overflow: hidden;top: 0;left: 0;z-index: 999;}
+.dialog .body {position: relative;padding: 16px 10px;font-size: 12px;border-bottom: 1px solid #d1d1d1;background-color: #fff;z-index: 999;top: 50%;left: 50%;width: 240px;border-radius: 6px;box-shadow: 0 0 6px #636363;box-sizing: border-box;}
+.dialog .body p {line-height: 16px;}
+.dialog .footer:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.dialog .footer li {width: 50%;float: left;}
+.dialog .footer a {display: block;font-size: 14px;text-align: center;padding: 12px 10px;border-right: 1px solid #d1d1d1;color: #4398D4;}
+.dialog .footer li:last-child a {border-right-width: 0;}
+.dialog .explain-text {position: relative;margin-bottom: 10px;}
+.dialog .explain-text i {font-size: 38px;}
+.dialog .explain-text span.text {position: absolute;left: 50px;top: 10px;font-size: 14px;}
+.dialog .btn {padding: 10px 0;}
+.dialog:before {content: "";position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.6);}
+
+/*加载*/
+.loading .box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 110px;
+    padding: 20px 0;
+    margin-top: -35px;
+    margin-left: -55px;
+    text-align: center;
+    z-index: 10000;
+}
+
+.loading .img {
+    height: 30px;
+    width: 100%;
+    background: url(img/loading-1.gif) center center no-repeat;
+}
+
+.pop-dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+.pop-dialog .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    background-color: #000;
+}
+
+.pop-dialog .body {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.pop-dialog .body .close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: #fff;
+}
+
+.pop-dialog .body .close i {
+    font-size: 26px;
+}
+
+.pop-dialog .body .collect-img {
+    width: 90%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.pop-dialog .body .code-img {
+    width: 220px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin: 0 0 0 -110px;
+}
+
+.pop-dialog .body .remark {
+    color: #fff;
+    width: 80%;
+    position: absolute;
+    top: 270px;
+    left: 10%;
+    font-size: 12px;
+    line-height: 20px;
+}
+/**/
+
+.check-small {
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    margin: 0 auto 0 auto;
+    outline: none;
+    position: relative;
+    transition: 0.2s ease-out;
+    width: 41px;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.check-small:before {
+    background-color: white;
+    border-radius: 15px;
+    content: "";
+    display: block;
+    height: 22px;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    transition: 0.2s ease-out;
+    width: 41px;
+    z-index: 100;
+}
+.check-small:after {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35), 0px 4px 5px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    content: "";
+    height: 20px;
+    left: 1px;
+    position: absolute;
+    top: 2px;
+    transition: 0.2s ease-out;
+    width: 20px;
+    z-index: 200;
+}
+.check-small:checked {
+    background-color: #4cd964;
+}
+.check-small:checked:before {
+    height: 0px;
+    right: 13px;
+    top: 15px;
+    width: 12px;
+}
+.check-small:checked:after {
+    left: 20px;
+}
+.check-small.active:before {
+    background-color: #e3e3e3;
+}
+.check-small.active:after {
+    width: 35px;
+}
+.check-small.active:checked:after {
+    left: 12px;
+}
+
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.clearfix { display: inline-table;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */

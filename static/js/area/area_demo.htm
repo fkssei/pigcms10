@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="area.min.js"></script>
+<title>纯JS省市区三级联动</title>
+<style type="text/css">
+body, select {font-size:12px; font-family:Tahoma}
+td { line-height:2em}
+strong { color:red; display:block}
+</style>
+</head>
+
+<body>
+<h1>纯JS省市区三级联动演示</h1>
+<table width="100%" height="149" border="1">
+  <tr>
+    <td>&nbsp;
+			<script type="text/javascript">	
+				var area = new AreaCtrl("省份:","城市:","地区:");
+				area.write();
+				area.loadData();
+			</script>
+	<strong>显示三级数据</strong>
+	</td>
+    <td>&nbsp;
+			<script type="text/javascript">	
+				var area = new AreaCtrl(" 省份："," 城市：");
+				area.write();
+				area.loadData();
+			</script>	
+	<strong>仅显示省份、城市；</strong>
+	</td>
+    <td>&nbsp;
+			<script type="text/javascript">	
+				var area = new AreaCtrl("省份");
+				area.write();
+				area.loadData();
+			</script>
+	<strong>仅显示省份</strong>
+	</td>
+  </tr>
+  <tr>
+    <td>&nbsp;
+			<script type="text/javascript">	
+				var area = new AreaCtrl(" Prov:"," City:"," Area:");
+				area.value = '440303';
+				area.write();
+				area.loadData();
+			</script>
+			<strong>定位到“地区”，根据罗湖区的代码（440303）自动选择广东与深圳；</strong>
+	</td>
+    <td>&nbsp;
+			<script type="text/javascript">	
+				var area = new AreaCtrl("省份","城市","地区");
+				area.value = '440300';
+				area.write();
+				area.loadData();
+			</script>
+	<strong>定位到“城市”</strong>
+	</td>
+    <td>&nbsp;
+			<script type="text/javascript">	
+				var area = new AreaCtrl("<br />省份：","<br />城市：","<br />地区：");
+				area.value = '440000';
+				area.write();
+				area.loadData();
+				</script><strong>定位到“广东”</strong>
+	</td>
+  </tr>
+</table>
+
+<p>	
+控件的默认名称为：省：Province，市：City，区：Area<br />
+本控件的好处是，传的值均为6位数字，可以最大化的优化数据库。不同于网上其他三级空间传的是中文的值。<br />
+本控件无需借助任何JS框架，是完全自己独立运行的控件，降低了和其他JS冲突的可能性，最大化的提升兼容性。<br />
+本控件自带数据，无需数据库，并提供PHP数组数据，可以在数据库读取数据之后还原成中文显示。<br />
+</p>
+<a href="http://www.biweb.cn/tools/area/area.rar" style="font-size:2em; color:blue">下载控件</a>
+<p style="text-align:center; margin:3em"><a href="http://www.biweb.cn/" target="_blank">作者：萧峰 biweb.cn</a></p>
+</body>
+</html>

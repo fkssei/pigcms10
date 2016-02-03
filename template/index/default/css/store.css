@@ -1,0 +1,10 @@
+.category .category_menu ul.menu_list li dl .menu_right .less span {  background-position: 447px -402px;  float: right;  margin: 3px 1px 1px;  }
+.menu-store .menu-store-div{float: left; width: 725px;height:60px;overflow: hidden}
+.menu-store-more .menu-store-div{height:auto}
+.navigation-current{background-color:rgba(0, 0, 0, 0) url("../images/weidian_icon.png") repeat scroll 74px -363px;color: #fff;	/*height: 27px;line-height: 27px;*/width: 42px;}
+
+.category .menu_title dd a{border:0px;width:auto}
+
+.page_list .active{margin-right:5px; width:auto; padding:0 12px; height:36px; border:1px solid #00bb88; cursor:pointer; background:#00bb88;display:inline-block; color:white}
+.page_list .fetch_page {margin-right:5px; width:auto; padding:0 15px; height:36px;border:1px solid #00bb88; cursor:pointer;display:inline-block;}
+.page_list .fetch_page:hover {background:#00bb88; color:white;}

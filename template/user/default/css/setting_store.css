@@ -1,0 +1,101 @@
+.ui-regions select {
+width: 105px;
+margin-right: 5px;
+}
+.shop-map-container {
+width: 100%;
+height: 500px;
+border: solid 1px #ccc;
+position: relative;
+}
+.shop-map-container .left {
+float: left;
+width: 210px;
+height: 100%;
+background-color: #fff;
+border-right: solid 1px #ccc;
+overflow: scroll;
+}
+.shop-map-container .left .place-list li {
+padding: 10px 5px 10px 30px;
+position: relative;
+line-height: 20px;
+cursor: pointer;
+border-bottom: solid 1px #ddd;
+}
+.shop-map-container .left .place-list li:hover,.shop-map-container .left .place-list li.active{
+background-color: #f2f2f2;
+}
+
+.shop-map-container .left .place-list .place-order {
+position: absolute;
+left: 5px;
+top: 9px;
+width: 20px;
+height: 20px;
+border-radius: 20px;
+background-color: red;
+float: left;
+text-align: center;
+color: #fff;
+font-style: normal;
+}
+.shop-map-container .left .place-list h3 {
+font-size: 14px;
+margin-bottom: 10px;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+font-weight:normal;
+}
+.shop-map-container .left .place-list .place-adress, .shop-map-container .left .place-list .place-phone {
+color: #999;
+overflow: hidden;
+}
+.shop-map-container .left .place-list .place-adress {
+max-height: 40px;
+}
+.shop-map-container .left .place-list .place-phone {
+max-height: 20px;
+}
+
+.shop-map-container .map {
+float: right;
+height: 100%;
+width: 494px;
+}
+.shop-map-container .map.large {
+width: 100%;
+}
+.shop-map-container .select-place {
+position: absolute;
+top: 10px;
+right: 10px;
+}
+.app__content .form-actions {
+padding: 10px 10px 10px 130px;
+border-top: 1px solid #CCC;
+background-color: #FFFEDC;
+margin: 0;
+}
+.shop-map-container .map .BMap_Marker img{
+	max-width:none;
+}
+.shop-map-container .info-window p.address {
+height: 3em;
+}
+.form-horizontal .controls .shop-map-container a.ui-btn {
+font-size: 12px;
+line-height: 20px;
+height: 20px;
+}
+.shop-map-container a.ui-btn.ui-btn-confirm {
+color: #fff;
+background-color: #06bf04;
+border-color: #03b401;
+}
+.ui-btn-disabled, .ui-btn-disabled:hover, .ui-btn-disabled:focus, .ui-btn-disabled:active {
+color: #999;
+background: #f0f0f0;
+border-color: #ddd;
+}

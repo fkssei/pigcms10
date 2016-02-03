@@ -1,0 +1,774 @@
+.gd_box{ width:60px; position:absolute; cursor:pointer; _display:none; }
+#gd_box{ width:60px; }
+#gd_box1{width:60px; position:absolute; top:0; left:0; z-index:1; }
+#nav ul{ width:60px; border:1px solid #d9d9d9; border-bottom:0; }
+#nav ul li{ height:auto; line-height:18px; position:relative; color:#fff; font-size:14px; border-bottom:1px solid #d9d9d9; width:60px; height:36px; padding:12px 0; }
+#nav ul li a{ color:#fff;background: url(../images/weidian_icon.png); display: block; width:36px; height:36px; margin:0 auto; }
+#nav ul li span{ display:none; margin-top:-4px;}
+#nav ul li:hover span,#nav ul li.current span{ display:block;}
+#nav ul li.gd_hot a{background-position: 645px -75px;}
+#nav ul li.gd_hot:hover,#nav ul li.gd_hot.current{ background:#ff4d4d; }
+#nav ul li.gd_shop a{background-position:609px -76px}
+#nav ul li.gd_shop:hover,#nav ul li.gd_shop.current{ background:#fea348; }
+#nav ul li.gd_activity a{background-position:575px -72px;}
+#nav ul li.gd_activity:hover,#nav ul li.gd_activity.current{ background:#43c980; }
+#nav ul li.gd_nameplate a{background-position:537px -73px}
+#nav ul li.gd_nameplate:hover,#nav ul li.gd_nameplate.current{ background:#4da7db; }
+#nav ul li.gd_product a{background-position:500px -75px}
+#nav ul li.gd_product:hover,#nav ul li.gd_product.current{ background:#ff6277; }
+#nav ul li.gd_show a{background-position:466px -73px}
+#nav ul li.gd_show:hover,#nav ul li.gd_show.current{ background:#9c83c7; }
+
+.chenpage { height:100%; width:100%; background:rgba(0,0,0,0.7); position:fixed; top:0 ; left:0; z-index:999;	 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000)\9; }
+.cheng_xianshi{ overflow:hidden; width:100%; height:100%;}
+.tankuang_button_xianshi{ display:none;}
+.chenpage .tankuang{ width:910px; height:648px; background:url(../images/tankuang_03.png); position:relative; margin:0 auto; margin-top:10%; }
+.chenpage .tankuang .tankuang_txt{ width:252px; height:114px; color:#00ba88; position:absolute; left:143px; top:224px; text-align:left; font-size:18px; line-height: 29px;}
+.chenpage .tankuang .tankuang_txt .tankuang_txt_title{ font-size:30px; margin-bottom: 11px;}
+.chenpage .tankuang .tankuang_txt p{}
+.chenpage .tankuang .tankuang_txt p:after{ content:""; height:0; clear:both; display:block} 
+.chenpage .tankuang .tankuang_txt .tankuang_txt_left{ float:left;}
+.chenpage .tankuang .tankuang_txt .tankuang_txt_right{ float:left;}
+.chenpage .tankuang .tankuang_txt span{ color:#fe8539;}
+.chenpage .tankuang .tankuang_erweima{ position:absolute; left:485px;top:273px;}
+.chenpage .tankuang .tankuang_erweima img{ width:190px; height:190px;}
+.chenpage .tankuang .tankuang_button{ position:absolute; left:180px; top:486px; width:148px; height:60px;}
+.chenpage .tankuang .tankuang_button img{ width:148px; height:60px;}
+.content_rihgt{ position:fixed; right:1%; top:100%; width:60px; z-index:99;_display:none; }
+.content_rihgt li{ width:55px; height:55px;background: url(../images/weidian_icon.png); margin-bottom:10px; position:relative;}
+.content_rihgt li a{ width:100%; height:100%; display:block;}
+.content_rihgt li.content_rihgt_shpping{background-position:305px -159px}
+.content_rihgt li.content_rihgt_shpping:hover{background-position:305px -88px}
+.content_rihgt li.content_rihgt_erweima{background-position:234px -159px}
+.content_rihgt li.content_rihgt_erweima:hover{background-position:234px -88px}
+.content_rihgt li.content_rihgt_gotop{background-position:165px -159px}
+.content_rihgt li.content_rihgt_gotop:hover{background-position:165px -88px}
+.content_rihgt li.content_rihgt_erweima .content_rihgt_erweima_img{ display:none; position:absolute; width:120px; height:110px;background: url(../images/weidian_icon.png) 314px -219px; right:59px; top:-9px; text-align:center}
+.content_rihgt li.content_rihgt_erweima:hover .content_rihgt_erweima_img{ display: block;}
+.content_rihgt li.content_rihgt_erweima .content_rihgt_erweima_img img{ width:85px; height:85px; margin-top: 13px;}
+
+.nav{ width:100%; min-width:1210px;background-color: #23cc9e; }
+.indexpage{ background:none; border-bottom:2px solid #00bb88;}
+.nav .nav_top{ width:1210px; margin:0 auto; }
+.nav .nav_top:after{ content:""; height:0; clear:both; display:block} 
+.nav .nav_top .nav_nav{ float:left; position:relative; z-index:2; cursor:pointer; height:auto; }
+.nav .nav_top .nav_nav .nav_nav_mian{ width:210px; height:36px; color:#fff; background:#00bb88; font-size:16px; line-height:36px; text-align:left; }
+.nav .nav_top .nav_nav .nav_nav_mian span{ display:block; float:left; width:25px; height:25px; background:url(../images/weidian_icon.png); background-position: 466px -123px; margin: 6px 4px 0px 14px; }
+.nav .nav_top .nav_nav .nav_nav_mian span.xianshi{ background-position:553px -403px; margin:10px 33px 0px 14px; float:right; width:20px; height:20px; _display:none;}
+.nav .nav_top .nav_nav:hover .nav_nav_mian span.xianshi{ background-position:571px -403px;}
+.nav .nav_top .nav_nav .nav_nav_mian_list{ position:absolute; width:209px; background:#fff; display:none; box-shadow: 0 0 3px #888888;border:1px solid #d9d9d9\9; left:0; top:36px; font-size:13px; padding:4px 0 0 0; z-index:98}
+.nav .nav_top .nav_nav:hover .nav_nav_mian_list{ display:block; }
+.indexpage .nav_top .nav_nav .nav_nav_mian_list{ display:block;}
+.nav .nav_top .nav_nav .nav_nav_mian_list li{ text-align: left; padding-left: 30px; width:179px; line-height: 31px; border-top:1px solid #fff;border-bottom:1px solid #fff; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li:after{ content:""; height:0; clear:both; display:block}
+.nav .nav_top .nav_nav .nav_nav_mian_list li:hover {border-top:1px solid #d9d9d9; border-bottom:1px solid #d9d9d9;line-height: 31px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li:hover:before{content:""; width:1px; height:31px; background:#fff; position:absolute; right:-1px; margin-top: 0px; z-index:9; _display:none;} 
+.nav .nav_top .nav_nav .nav_nav_mian_list li a{ color:#191919; width:100%; display:block;}
+.nav .nav_top .nav_nav .nav_nav_mian_list li a:hover{ color:#00bb88; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li .nav_nav_subnav{ padding:20px; background:#fff; position:absolute; top:2px;; left:210px; width:790px; display:none; z-index:99 }
+.nav .nav_top .nav_nav .nav_nav_mian_list li:hover .nav_nav_subnav{display:block; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li .nav_nav_subnav a.nav_nav_subnav_curn { color:#00bb88;}
+.nav .nav_top .nav_nav .nav_nav_mian_list li .nav_nav_subnav a:hover { text-decoration:underline;}
+.nav .nav_top .nav_nav .nav_nav_mian_list li .nav_nav_mian_list_left{ float:left;padding: 0 30px; width: 334px; border-right: 1px solid #e5e5e5;}
+.nav .nav_top .nav_nav .nav_nav_mian_list li .nav_nav_mian_list_right{ float:left;padding: 0 30px; width: 334px;}
+.nav .nav_top .nav_nav .nav_nav_mian_list li dl{ border-bottom:1px solid #e5e5e5; padding:10px 0; width:334px;}
+.nav .nav_top .nav_nav .nav_nav_mian_list li dl:after{ content:""; height:0; clear:both; display:block} 
+.nav .nav_top .nav_nav .nav_nav_mian_list li dt{ font-size:14px; color:#666; font-weight:bold;}
+.nav .nav_top .nav_nav .nav_nav_mian_list li dd{ color:#666; float:left;font-size:12px; line-height:23px; margin-right: 10px; padding: 0 10px 0 0px; width:auto;display:block;white-space:nowrap}
+.nav .nav_top .nav_nav .nav_nav_mian_list li dd a{ display: inline; width:auto;}
+.nav .nav_top .nav_nav .nav_nav_mian_list li span{ display:block; width:20px; height:20px; background:url(../images/weidian_icon.png); float:left; margin-right:4px; margin-top: 7px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li:hover span{/*margin-top: 6px;*/}
+.nav .nav_top .nav_nav .nav_nav_mian_list li .woman{ background-position:639px -17px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li:hover .woman{ background-position:639px -52px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li .man{ background-position:605px -18px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li:hover .man{ background-position:605px -53px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li .food{ background-position:570px -18px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li:hover .food{ background-position:570px -53px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li .beauty{ background-position:531px -18px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li:hover .beauty{ background-position:531px -53px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li .baby{ background-position:497px -18px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li:hover .baby{ background-position:497px -53px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li .home{ background-position:462px -18px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li:hover .home{ background-position:462px -53px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li .sports{ background-position:428px -18px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li:hover .sports{ background-position:428px -53px; } 
+.nav .nav_top .nav_nav .nav_nav_mian_list li .digital{ background-position:392px -18px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li:hover .digital{ background-position:392px -53px; } 
+.nav .nav_top .nav_nav .nav_nav_mian_list li .watch{ background-position:355px -18px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li:hover .watch{ background-position:355px -53px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li .car{ background-position:321px -20px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li:hover .car{ background-position:321px -55px; } 
+.nav .nav_top .nav_nav .nav_nav_mian_list li .sound{ background-position:286px -17px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li:hover .sound{ background-position:286px -52px; } 
+.nav .nav_top .nav_nav .nav_nav_mian_list li .book{ background-position:249px -18px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li:hover .book{ background-position:249px -53px; } 
+.nav .nav_top .nav_nav .nav_nav_mian_list li .kitchen{ background-position:213px -18px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li:hover .kitchen{ background-position:213px -53px; } 
+.nav .nav_top .nav_nav .nav_nav_mian_list li .finance{ background-position:178px -17px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li:hover .finance{ background-position:178px -52px; } 
+.nav .nav_top .nav_nav .nav_nav_mian_list li .travel{ background-position:144px -17px; }
+.nav .nav_top .nav_nav .nav_nav_mian_list li:hover .travel{ background-position:144px -52px; } 
+.nav .nav_top .nav_list{ float:left; line-height:36px; font-size:16px; }
+.nav .nav_top .nav_list:after{ content:""; height:0; clear:both; display:block; } 
+.nav .nav_top .nav_list li{ float:left; height:36px;margin-left:2px; }
+.nav .nav_top .nav_list li a{ color:#fff; display:block; padding:0 25px;}
+.nav .nav_top .nav_list li a:hover{ background:#00bb88}
+.nav .nav_top .nav_list li a.nav_list_curn{background:#00bb88}
+.indexpage .nav_top .nav_list li a{ color:#191919}
+.indexpage .nav_top .nav_list li a:hover{ color:#00bb88; background:none;}
+.indexpage .nav_top .nav_list li a.nav_list_curn{color:#00bb88;background:none;}
+
+
+.banner{ background:#f7f7f7 url(../images/souyenav_10.png) no-repeat center top; width:100%; height:520px; min-width:1210px; position:relative; z-index:1; }
+.banner:after{ content:""; height:0; clear:both; display:block}
+.banner_arct{ width:1210px; margin:0 auto;}
+.banner_arct:after{ content:""; height:0; clear:both; display:block}
+.banner .banner_content{ float:right; width:1000px;_width:1015px;}
+.banner .banner_content:after{ content:""; height:0; clear:both; display:block}
+.banner .banner_content .banner_content_main{ float:left; width:735px; height:auto; overflow: hidden;}
+.banner .banner_content .banner_content_asid{ float:right; width:265px; height:auto; background:#fff; }
+.banner .banner_content .banner_content_asid .banner_content_asid_top{ padding:20px;}
+.banner .banner_content .banner_content_asid .banner_content_asid_top ul:after{ content:""; height:0; clear:both; display:block}
+.banner .banner_content .banner_content_asid .banner_content_asid_top li{ float:left; margin-left: 14px;banner_content_asid_center}
+.banner .banner_content .banner_content_asid .banner_content_asid_top li span{ background:url(../images/weidian_icon.png); display:block; width:95px; height:95px;}
+.banner .banner_content .banner_content_asid .banner_content_asid_top li.banner_content_asid_top_t span{ background-position:540px -160px;}
+.banner .banner_content .banner_content_asid .banner_content_asid_top li.banner_content_asid_top_t p{ color:#3ce48e; font-size:16px;}
+.banner .banner_content .banner_content_asid .banner_content_asid_top li.banner_content_asid_top_b span{background-position:647px -160px;}
+.banner .banner_content .banner_content_asid .banner_content_asid_top li.banner_content_asid_top_b p{ color:#ffba41; font-size:16px;}
+.banner .banner_content .banner_content_asid .banner_content_asid_center{ padding:5px; width:255px; height:auto; border-top:1px dashed #d9d9d9;border-bottom:1px dashed #d9d9d9;}
+.banner .banner_content .banner_content_asid .banner_content_asid_center img{width:255px; height:167px;}
+.banner .banner_content .banner_content_asid .banner_content_asid_center .banner_content_asid_center_txt{ font-size:14px; color:#191919; line-height: 50px; padding: 0 10px;}
+.banner .banner_content .banner_content_asid .banner_content_asid_center .banner_content_asid_center_txt:after{ content:""; height:0; clear:both; display:block}
+.banner .banner_content .banner_content_asid .banner_content_asid_center .banner_content_asid_center_txt_left{ float:left;}
+.banner .banner_content .banner_content_asid .banner_content_asid_center .banner_content_asid_center_txt_right{float:right; color:#6c6c6c;}
+.banner .banner_content .banner_content_asid .banner_content_asid_center .banner_content_asid_center_txt_right span{color:#c91623;}
+.banner .banner_content .banner_content_asid .banner_content_asid_bottom{ padding: 12px 12px 0 12px; }
+.banner .banner_content .banner_content_asid .banner_content_asid_bottom:after{ content:""; height:0; clear:both; display:block}
+.banner .banner_content .banner_content_asid .banner_content_asid_bottom_img{ width:75px; height:75px; overflow:hidden; border-radius:50%; float:left;}
+.banner .banner_content .banner_content_asid .banner_content_asid_bottom_img img{ width:75px; height:75px;}
+.banner .banner_content .banner_content_asid .banner_content_asid_bottom_info{ float:left; padding: 15px 0 0 15px;text-align:left; }
+.banner .banner_content .banner_content_asid .banner_content_asid_bottom_info_name a{ font-size:16px; color:#191919; display:block; float:left; }
+.banner .banner_content .banner_content_asid .banner_content_asid_bottom_info_name:after{ content:""; height:0; clear:both; display:block}
+.banner .banner_content .banner_content_asid .banner_content_asid_bottom_info_name span{ display:block; width:25px; height:25px;background:url(../images/weidian_icon.png) 643px -117px; float:left;}
+.banner .banner_content .banner_content_asid .banner_content_asid_bottom_info_dec{ font-size:14px; color:#6c6c6c; padding-top:3px; }
+.banner .banner_content .banner_content_asid .banner_content_asid_bottom_info_dec:after{ content:""; height:0; clear:both; display:block}
+.banner .banner_content .banner_content_asid .banner_content_asid_bottom_info_dec span{ display:block; width:25px; height:25px;background:url(../images/weidian_icon.png) 604px -121px; float:left;}
+.banner .banner_content .banner_content_asid .banner_content_txt{ text-align:center; color:#191919; font-size:14px; }
+.banner .banner_content .banner_content_asid .banner_content_txt span{ color:#c91623;}
+
+.content{ margin:0 auto; font-size:14px; width:1210px; position:relative; }
+.content .content_commodity{ width:100%; margin:50px auto; }
+.content .content_commodity:after{ content:""; height:0; clear:both; display:block}
+.content .content_commodity .content_commodity_title{ width:100%; border-bottom:2px solid #ff4d4d;}
+.content .content_commodity .content_commodity_title span{float:left; display:block; background:url(../images/weidian_icon.png); width:30px; height:30px; margin-right: 5px; margin-top: -5px;}
+.content .content_commodity .content_commodity_title_left{ float:left; height:37px; width:200px; font-size:20px; color:#191919; text-align:left;}
+.content .content_commodity .content_commodity_title_left a{color:#191919;}
+.content .content_commodity .content_commodity_title:after{ content:""; height:0; clear:both; display:block}
+.content .content_commodity .content_commodity_title_left:after{ content:""; height:0; clear:both; display:block}
+.content .content_commodity .content_commodity_title .content_commodity_title_content,.content .content_commodity .content_commodity_title .hot_category_sales_category{ float:left; }
+.content .content_commodity .content_commodity_title .content_commodity_title_content ul:after{ content:""; height:0; clear:both; display:block}
+.content .content_commodity .content_commodity_title ul li{ float:left; padding:0 17px; height:26px; margin-left:10px; border-radius:5px; padding:0\9; width:92px\9;}
+.content .content_commodity .content_commodity_title ul li a{ color:#191919; }
+.content .content_commodity .content_commodity_title ul li a:hover{ color:#fff; }
+.content .content_commodity .content_commodity_title_right{ float:right; margin-right:10px;}
+.content .content_commodity .content_commodity_title_right a{ color:#6c6c6c;}
+.content .content_commodity .content_commodity_title_right a:hover{ color:#00bb88;}
+.content .content_commodity .content_commodity_title ul li:hover a,.content .content_commodity .content_commodity_title li.content_curn a{ color:#fff; }
+.content .content_woman .content_commodity_title{ width:100%; border-bottom:2px solid #ff4d4d;}
+.content .content_woman .content_commodity_title span{ background-position: 641px -79px; }
+.content .content_woman .content_commodity_title ul li:hover,.content_woman .content_commodity_title ul li.content_curn{ background:#ff4d4d; background:url(../images/weidian_icon.png) 641px -275px\9;}
+.content .content_shop .content_commodity_title{ width:100%; border-bottom:2px solid #fea348;}
+.content .content_shop .content_commodity_title span{ background-position:607px -79px; }
+.content .content_shop .content_commodity_title ul li:hover,.content_shop .content_commodity_title ul li.content_curn{ background:#fea348; background:url(../images/weidian_icon.png) 643px -311px\9;}
+.content .content_activity .content_commodity_title{ width:100%; border-bottom:2px solid #43c980;}
+.content .content_activity .content_commodity_title span{ background-position: 574px -73px; width: 35px; height: 35px; margin-top: -7px; }
+.content .content_activity .content_commodity_title ul li:hover,.content_activity .content_commodity_title ul li.content_curn{ background:#43c980; background:url(../images/weidian_icon.png) 533px -275px\9;}
+.content .content_nameplate .content_commodity_title{ width:100%; border-bottom:2px solid #4da7db;}
+.content .content_nameplate .content_commodity_title span{ background-position: 537px -73px; width: 35px; height: 35px; margin-top: -7px; }
+.content .content_nameplate .content_commodity_title ul li:hover,.content_nameplate .content_commodity_title ul li.content_curn{ background:#4da7db; background:url(../images/weidian_icon.png) 533px -311px\9;}
+.content .content_product .content_commodity_title{ width:100%; border-bottom:2px solid #ff6277;}
+.content .content_product .content_commodity_title span{ background-position: 500px -73px; width: 35px; height: 35px; margin-top: -7px; }
+.content .content_product .content_commodity_title ul li:hover,.content_product .content_commodity_title ul li.content_curn{ background:#ff6277; background:url(../images/weidian_icon.png) 428px -274px\9;}
+.content .content_shear .content_commodity_title{ width:100%; border-bottom:2px solid #9c83c7;}
+.content .content_shear .content_commodity_title span{ background-position: 466px -71px; width: 35px; height: 35px; margin-top: -7px; }
+.content .content_shear .content_commodity_title ul li:hover,.content_shear .content_commodity_title ul li.content_curn{ background:#9c83c7; background:url(../images/weidian_icon.png) 428px -311px\9;}
+.content .hot_activity .content_commodity_title{ width:100%; border-bottom:2px solid #fe665f; }
+.content .hot_activity .content_commodity_title .content_commodity_title_left{font-size:27px; font-weight:bold;font-style:italic;  padding-left: 15px;}
+.content .hot_activity .content_commodity_title .content_commodity_title_left a{color:#fe665f; }
+.content .hot_activity .content_commodity_title ul li:hover,.hot_activity .content_commodity_title ul li.content_curn{ background:#fe665f; background:url(../images/weidian_icon.png) 263px -443px\9;}
+.content .nearby_activity .content_commodity_title{ width:100%; border-bottom:2px solid #edbb36; }
+.content .nearby_activity .content_commodity_title .content_commodity_title_left{font-size:27px; font-weight:bold;font-style:italic;  padding-left: 15px;}
+.content .nearby_activity .content_commodity_title .content_commodity_title_left a{color:#edbb36; }
+.content .nearby_activity .content_commodity_title ul li:hover,.nearby_activity .content_commodity_title ul li.content_curn{ background:#edbb36; background:url(../images/weidian_icon.png) 135px -443px\9;}
+.content .content_list{ width:100%; font-size:12px; height:auto;}
+.content .content_list ul{ width:1230px; _width:1235px;}
+.content li {position:relative; }
+.content li .content_list_erweima{ width:100%; height:100%; position:absolute; top:0; left:0; background:rgba(0,0,0,0.7); display:none;	filter: alpha(opacity=50);
+ filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000, endcolorstr=#7F000000); overflow:hidden;}
+.content li:hover .content_list_erweima{ display:block;}
+.content li .content_list_erweima .content_list_erweima_img{ }
+.content li .content_list_erweima .content_shop_name{ width:100%; color:#fff; text-align:center; font-size: 18px;}
+.content li .content_list_erweima .content_shop_name:hover{ color:#00bb88;}
+.content .content_commodity ul li .content_list_erweima .content_list_erweima_img img{ width:60%; height:auto; padding:6%;}
+.content .content_commodity ul:after{ content:""; height:0; clear:both; display:block}
+.content .content_commodity ul.content_list_ul li{ float:left; border:1px solid #fff; box-shadow: 0 0 5px #ddd;border:1px solid #d9d9d9\9; padding-bottom:15px; margin:20px 20px 0 0; display:inline;}
+.content .content_commodity ul.content_list_ul li:hover{ box-shadow: 0 0 5px #00bb88;border:1px solid #00bb88\9; }
+.content .content_commodity ul.content_list_ul li .content_list_img{/*width:224px; height:159px;display:table-cell;*/vertical-align: middle;margin-bottom:15px; position:relative;/*border-bottom:1px dashed #e5e5e5;*/}
+.content .content_list li { width:224px; position:relative; }
+.content .content_list li img{ width:224px; height:159px;}
+.content .content_commodity li .content_list_txt{ padding:0 3%; width:94%;}
+.content .content_commodity li .content_list_txt:after{ content:""; height:0; clear:both; display:block}
+.content .content_commodity li .content_list_pice{ float:left; color:#c91623;}
+.content .content_commodity li .content_list_pice span{ font-size:20px;}
+.content .content_commodity li .content_list_dec{ float:right; color:#191919;}
+.content .content_commodity li .content_list_dec span{ color:#6c6c6c;}
+.content .content_commodity li .content_list_day{ float:left; color:#29c475; margin-left:5px;}
+.content .content_commodity li .content_list_add{ float:right;margin-right:5px; color:#ffba41l; font-size:14px;}
+.content .content_commodity li .content_list_add:after{ content:""; height:0; clear:both; display:block; }
+.content .content_commodity li .content_list_add span{ display: block; width: 25px; height: 25px; background: url(../images/weidian_icon.png) 604px -121px; float: left;} 
+.content .content_commodity li .content_shop
+_name{text-align: left; float:left; font-size:14px; color:#191919;white-space:nowrap; overflow:hidden; text-overflow:ellipsis; width:115px;}
+.content .content_commodity li .content_list_erweima .content_shop_name{ font-size:16px; color:#fff; margin:0 auto; width:80%; float:none;}
+.content .content_commodity li .content_list_erweima .content_shop_name:hover{ color:#00bb88;}
+.content .content_commodity li .content_list_distance{ float:left; margin-left:5px; font-size:14px; color:#6c6c6c;}
+.content .content_commodity .content_shop_jion{ color:#6c6c6c; float:right;margin-right:5px;}
+.content .content_commodity .content_shop_jion span{ color:#ffba41;}
+.content .content_commodity li .shop_info{ color:#6c6c6c; margin:10px 12px 0 12px;; padding:10px 5px 0 5px; border-top:1px solid #d9d9d9;}
+.content .content_commodity li .shop_info:after{ content:""; height:0; clear:both; display:block}
+.content .content_commodity li .content_shop_add{ float:right;}
+.content_activity{ width:100%;}
+.content_activity .content_list_activity{ width:950px; float:left;}
+.content_activity .content_list_activity .content_list_ul{ width:956px; float:left;}
+.content_list_activity li { width:215px; height:auto215px;}
+.content .content_list_activity li img{ width:215px; height:215px;}
+.content .content_activity_asid{ float:right; width:230px; padding:15px; background:#f7f7f7;}
+.content .content_activity_asid dl{ width:100%;}
+.content .content_activity_asid dl dt{ text-align:left;}
+.content .content_activity_asid dl dt .content_activity_asid_title{ font-size:18px;font-weight:bold; padding:15px 5px; }
+.content .content_activity_title{ color:#43c980; }
+.content .content_activity_asid dl dt .content_activity_asid_txt{ font-size:14px ; color:#010101; }
+.content .content_activity_asid dl dd {border-bottom:1px dashed #d9d9d9;padding:10px 5px;}
+.content .content_activity_asid dl dd .content_conmment{ width:100%;}
+.content .content_activity_asid dl dd .content_conmment:after{ content:""; height:0; clear:both; display:block}
+.content .content_activity_asid dl dd .content_asit_img{ border:1px solid #d9d9d9; float:left;}
+.content .content_activity_asid dl dd .content_asit_img img{ width:43px; height:43px;}
+.content .content_activity_asid dl dd .content_custom{ float:left; color:#111111; padding-left: 20px; text-align:left;}
+.content .content_activity_asid dl dd .content_custom .content_time{white-space:nowrap; overflow:hidden; text-overflow:ellipsis; width:100px;}
+.content .content_activity_asid dl dd .content_custom .content_time a{ color:#111111;}
+.content .content_activity_asid dl dd .content_custom .content_time a:hover{ color:#00bb88;}
+.content .content_activity_asid dl dd .content_custom p{ font-size:13px; color:#9a9a9a;}
+.content .content_activity_asid dl dd .content_comment_txt{ color:#010101; background:url(../images/weidian_icon.png) 641px -352px; width:197px; height:44px;
+ float:left; margin-top:3px; line-height: 45px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+
+.content .content_nameplate{ width:1210px; }
+.content .content_nameplate .content_list_nameplat{ width:1233px;_width:1243px;}
+.content .content_list_nameplat ul{ float:left;}
+.content .content_nameplate .content_list_nameplat ul li{ padding:0; border:0; border:1px solid #ddd\9;}
+.content .content_nameplate .content_list_nameplat:after{ content:""; height:0; clear:both; display:block}
+.content .content_list_nameplat .content_nameplate_left{ width:334px; }
+.content .content_list_nameplat .content_nameplate_left img{ /*width:314px; height:147px;*/ }
+.content .content_list_nameplat .content_nameplate_left .content_nameplate_left_big img{/* height:314px;*/}
+.content .content_list_nameplat .content_nameplate_content{ width:648px; _width:648px; }
+.content .content_list_nameplat .content_nameplate_content img{ width:302px; height:147px; }
+.content .content_list_nameplat .content_nameplate_right{ width:231px; }
+.content .content_list_nameplat .content_nameplate_right img{ /*width:231px; height:231px;*/ }
+.content .content_list_nameplat .content_nameplate_right li{ margin-right:0;}
+
+.content .content_list_product{ width:950px; float:left;}
+.content .content_list_product li{ width:213px; }
+.content .content_list_product li img{ width:213px; height:152px; }
+.content .content_list_product li .content_list_txt{ color:#6c6c6c; }
+.content .content_list_product li .content_list_txt span{ color:#c91623; font-size:16px;}
+.content .content_list_product li .content_list_txt .content_distribution{ color:#fff; background:#ff444c; line-height:35px; width: 98px; margin: 0 auto; margin-top: 6px; *margin:0;}
+.content .content_list_product li .content_list_txt .content_distribution a{ color:#fff;}
+.content .content_product .content_product_title{ font-size:18px; color:#ff6277;}
+.content .content_shear{ width:1210px; }
+.content .content_shear .content_list_shear{ width:1233px;}
+.content .content_shear .content_list_shear:after{ content:""; height:0; clear:both; display:block}
+.content .content_shear .content_list_shear ul{ float:left; width:410px;-ms-width:}
+.content .content_shear .content_list_shear ul li{ padding:0; position:relative; border:0; box-shadow:none;}
+.content .content_shear .content_list_shear ul li:hover{ padding:0; position:relative; border:0; box-shadow:none;}
+.content .content_shear .content_list_shear ul li .content_show{word-break: break-all; width:100%; height:100%; position:absolute; background:rgba(255,255,255,0.5); left:0; top:0; display:none;	filter: alpha(opacity=50);
+ filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7Fffffff, endcolorstr=#7Fffffff); }
+.content .content_shear .content_list_shear ul li:hover .content_show{ display:block;}
+.content .content_shear .content_list_shear ul li .content_show_xin{ text-align:left; margin:15px; height:0;}
+.content .content_shear .content_list_shear ul li .content_show_xin span{ background:url(../images/weidian_icon.png) 426px -124px; width:20px; height:20px; display:block; float:left; margin-right:3px;}
+.content .content_shear .content_list_shear ul li .content_txt{ font-size:20px; padding: 27% 0; max-width:100%;}
+.content .content_shear .content_list_shear ul li .content_txt a{color:#2b2121; }
+.content .content_shear .content_list_shear ul li .content_txt a:hover{color:#00bb88; }
+.content .content_shear .content_list_shear img{ /*width:183px; height:183px; */}
+.content .content_shear .content_list_shear .content_shear_left_big img{/* width:388px; height:388px;*/white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+
+.category{  }
+.category .category_menu{ width:100%;}
+.category   .menu_title{font-size:18px;  padding: 20px 0; color:#191d1c; line-height:27px; } 
+.category   .menu_title dl{ }
+.category   .menu_title dl:after{ content:""; height:0; clear:both; display:block}
+.category   .menu_title dt{ float:left; color:#191d1c;}
+.category   .menu_title dd{ float:left;font-size:13px; width:auto; }
+.category   .category_menu .menu_list .menu-store-div {  float: left;  height: 60px;  overflow: hidden;  width: 84%;  }
+.category   .menu_title dd a{ display:block;padding:0px 9px; border:1px solid #6c6c6c; color:#6c6c6c; width:78px; height:29px;}
+.category   .menu_title dd a:after{ content:""; height:0; clear:both; display:block}
+.category   .menu_title dd span{ display:block; height:15px; width:15px; margin:5px 9px;background:url(../images/weidian_icon.png); background-position: 518px -406px; }
+.category   .menu_title dd a span{background-position:483px -400px; float:right; margin: 5px 0px;*margin:-21px -4px;}
+.category   .menu_content{ width:100%; font-size:16px;border:1px solid #e6e6e6;}
+.category .category_menu .menu_content_title{background:#f7f7f7; height:46px; line-height:46px; border-bottom:1px solid #e6e6e6;}
+.category .category_menu .menu_content_title dl{ padding-left:12px;}
+.category .category_menu .menu_content_title dl:after{ content:""; height:0; clear:both; display:block}
+.category .category_menu .menu_content_title dt{ font-size:16px; color:#00bb88; float:left;}
+.category .category_menu .menu_content_title dd{ margin-left:10px; color:#191919; float:left;}
+.category .category_menu .menu_content_title dd span{ font-size:14px; color:#6c6c6c;}
+.category .category_menu .condition{ line-height:60px; padding:0 20px; height:60px;}
+.category .category_menu .condition:after{ content:""; height:0; clear:both; display:block}
+.category .category_menu .condition .condition_title{ float:left; font-size:16px; color:#171e1c;/*width:85px;*/text-align: right;}
+.category .category_menu .condition .menu_clear{ margin-right:20px;float: right;}
+.category .category_menu .condition .menu_clear a{  font-size:14px; color:#ff4545;}
+.category .category_menu .condition ul{ float:left; margin-top:14px;  margin-left: 15px;}
+.category .category_menu .condition ul:after{ content:""; height:0; clear:both; display:block}
+.category .category_menu .condition ul li{ float:left; padding:0 10px ; border:1px solid #00bb88; line-height:30px;   font-size:12px; color:#00bb88;}
+.category .category_menu .condition ul li dl{ width:auto; float:left;} 
+.category .category_menu .condition ul li dl:after{ content:""; height:0; clear:both; display:block}
+.category .category_menu .condition ul li dl dt{ float:left;}
+.category .category_menu .condition ul li dl dd{ float:left;}
+.category .category_menu .condition ul li dl dd:after{ content:""; height:0; clear:both; display:block}
+.category .category_menu .condition ul li span{background:url(../images/weidian_icon.png) 322px -412px; height:15px; width:15px; display:block; float:left; margin:6px -6px 0 6px; }
+.category .category_menu .condition{}
+.category .category_menu ul.menu_list{ padding:0 20px;}
+.category .category_menu ul.menu_list:after{ content:""; height:0; clear:both; display:block}
+.category .category_menu ul.menu_list li dl{ width:100%; border-top:1px dashed #e6e6e6; line-height:60px; }
+.category .category_menu ul.menu_list li dl:after{ content:""; height:0; clear:both; display:block}
+.category .category_menu ul.menu_list li dt{ float:left; color:#171e1c; text-align:left;}
+.category .category_menu ul.menu_list li dd{ float:left; padding:0 22px; font-size:14px; color:#454545;}
+.category .category_menu ul.menu_list li dd a{color:#454545;}
+.category .category_menu ul.menu_list li dd a:hover,.category .category_menu ul.menu_list li dd a.navigation-current{color:#00bb88;}
+.category .category_menu ul.menu_list li dl .menu_right{ float:right; line-height:20px; font-size:12px; /*width:150px;*/ width:55px; margin-top:15px; color:#191919;}
+.category .category_menu ul.menu_list li dl .menu_right span{ width:15px; height:15px; float:left;background:url(../images/weidian_icon.png); display:block;}
+.category .category_menu ul.menu_list li dl .menu_right:after{ content:""; height:0; clear:both; display:block}
+.category .category_menu ul.menu_list li dl .menu_right .choice{ float:left; margin-right:20px; border:1px solid #6c6c6c; padding:0 7px; cursor:pointer;}
+.category .category_menu ul.menu_list li dl .menu_right .choice span{ background-position:642px -402px;margin: 1px ;}
+.category .category_menu ul.menu_list li dl .menu_right .more{ float:left; }
+.category .category_menu ul.menu_list li dl .menu_right .more a{ color:#191919;}
+.category .category_menu ul.menu_list li dl .menu_right .more span{background-position:465px -402px;margin: 1px ; float:right;margin-top: 3px; *margin:-17px -37px;}
+.category .category_menu ul.menu_list li dl .menu_right .more:hover span{background-position:447px -402px;}
+
+.category .cata_table{ }
+.category .cata_table dl{ width:100%;line-height:50px; border:1px solid #e5e5e5; background:#f7f7f7; font-size:14px; color:#191919; cursor:pointer; margin:33px 0 25px 0;_width:100%;}
+.category .cata_table dl:after{ content:""; height:0; clear:both; display:block}
+.category .cata_table dl dt{ float:right}
+.category .cata_table dl dt { color:#6c6c6c; font-size:14px; }
+.category .cata_table dl dt span{ color:#00bb88;}
+.category .cata_table dl dt:after{ content:""; height:0; clear:both; display:block}
+.category .cata_table dl dt div{float:left; width:25px; height:25px;background:url(../images/weidian_icon.png);margin: 12px 5px 0 0;}
+.category .cata_table dl dt .cata_left{ background-position:367px -82px; margin-left:10px;}
+.category .cata_table dl dt .cata_right{ background-position:427px -82px; margin-right:28px;}
+.category .cata_table dl dd{ float:left; border-right:1px solid #e5e5e5; padding:0 24px;}
+.category .cata_table dl dd.cata_curnt,.category .cata_table dl dd.cata_table_li:hover{ color:#fff; background:#00bb88;}
+.category .cata_table dl dd.cata_curnt a,.category .cata_table dl dd.cata_table_li a:hover{ color:#fff; background:#00bb88;}
+.category .cata_table dl dd.distance{ color:#fe7748;}
+.category .cata_table dl dd.distance span{background:url(../images/weidian_icon.png) 520px -442px; margin-top:13px; display:block; float:left; width:22px; height:22px;}
+.category .cata_table dl dd form{ padding:0 10px; width:185px; _padding-top:10px;}
+.category .cata_table dl dd form input{ width:50px; height:24px; border:1px solid #6c6c6c; margin-right:4px;  padding-left: 5px;}
+.category .cata_table dl dd form button{background:url(../images/weidian_icon.png) 74px -363px; width:42px; height:27px; color:#fff; line-height:27px;}
+.category .cata_table li img{ width:224px; height:224px;}
+.category .cata_table li div.content_list_img{width:224px; height:224px;}
+.category .content_list_ul li{}
+.category .content_list_ul li:hover{ background:#f2f2f2;}
+.category .content_list_ul li .shop_list{ width:100%; position:absolute; bottom:0px; left:0; line-height:30px; font-size:14px; display:none}
+.category .content_list_ul li:hover .shop_list{ display:block;}
+.category .content_list_ul li .shop_list:after{ content:""; height:0; clear:both; display:block}
+.category .content_list_ul li .shop_list form button{ width:100%; height:30px; color:#fff;}
+.category .content_list_ul li .shop_list .shop_guanzhu{ float:left; width:49%; background:#00bb88;}
+.category .content_list_ul li .shop_list .shop_shoucang{ float:right; width:49%; background:#eeae3d;}
+
+.page_list{ width:100%; font-size:14px; line-height:36px; color:#6c6c6c;}
+.page_list::after{ content:""; height:0; clear:both; display:block}
+.page_list dl{ float:right; line-height:36px; margin-right:0%; width:auto}
+.page_list dl:after{ content:""; height:0; clear:both; display:block} 
+.page_list dl dt{ float:right;}
+.page_list dl dt span{ display: inline; padding:0 10px; }
+.page_list dl dt input{ width:36px; height:36px; border:1px solid #d9d9d9;}
+.page_list dl dt button{background:url(../images/weidian_icon.png) 429px -351px;width:38px; height:38px; color:#fff; margin:0 10px;}
+.page_list dl dd{ float:left; margin-right:5px; width:36px; height:36px; border:1px solid #00bb88; cursor:pointer;}
+.page_list dl dd.page_curn,.page_list dl dd:hover{ background:#00bb88; color:#fff;}
+
+
+.shopping{ width:1210px; margin:0 auto; padding-top:32px;}
+.shopping:after{ content:""; height:0; clear:both; display:block} 
+.shopping .shopping_left{ float:left; width:920px; }
+.shopping .shopping_left .shopping_menu{}
+.product_img {	width: 320px;	height:389px;	overflow:hidden;}
+.show-box {	width: 318px;	height:318px;	overflow: hidden;	float: left;	position: relative;		border: 1px solid #d9d9d9;}
+.show-box li {	display: none;	width: 100%;	float: left;	height: auto;}
+.show-box li img{ width:318px; height:318px;}
+.show-box p {	text-align: center;	margin-top: 5px;	font-size: 20px;	line-height: 30px;}
+.show-box .show {	display: block;}
+.show-box img {	display: block;	width: 800px;	margin: 0 auto;	_width: 600px;}
+.show-btn {	display: block;	height: 100%;	width: 50px;	position: absolute;}
+.show-prev {	left: 0;}
+.show-next {	right: -30px;}
+.show-btn span {	height: 46px;	display: block;	position: absolute;	top: 50%;	width: 100%;	cursor: pointer;	margin-top: -23px;	background: url(../images/btn.png) no-repeat;}
+.show-prev span {	background-position: -20px 0}
+.show-next span {	background-position: -89px 0}
+/*小图列表部分*/
+.minImgs {	height:auto; width:100%;	position: relative; 	float: left;/*overflow: hidden;*/}
+.min-btn{ width:26px; height:60px;  position:absolute; z-index:99; top:8px; background:#f2f2f2}
+.min-btn span{ width:15px; height:20px;background:url(../images/weidian_icon.png); display:block;  margin-top: 17px;  margin-left: 4px;}
+.min-prev{left: 0;}
+.min-prev span{	background-position:358px -406px}
+.min-prev:hover {	background-position: -28px 0}
+.min-next {	right: 0;}
+.min-next span{background-position:340px -406px}
+.min-next:hover {	background-position: -28px -94px}
+.min-box {	margin: 0 auto;	position: relative;/*overflow: hidden;*/ 	top: 8px}
+.min-box-list {	height: 100%;	left: 0;	top: 0; }
+.min-box-list li.cur {	border:1px solid #00bb88;}
+.min-box-list li { border:1px solid #d9d9d9; float: left;	cursor: pointer;	margin-right: 5px; width:58px;}
+.min-box ul:after{ content:""; height:0; clear:both; display:block} 
+.min-box-list li img {	width: 58px;}
+.min-box-list li div {	width: 58px;	height: 58px;	overflow: hidden;	margin: 0 auto}
+
+.shopping .shopping_left .shopping_menu:after{ content:""; height:0; clear:both; display:block} 
+.shopping .shopping_left .shopping_menu .shopping_menu_left{ float:left; width:320px; padding-right:20px;}
+.shopping .shopping_left .shopping_menu .shopping_menu_right{ float:left; padding:0 20px; width:520px;}
+.shopping .shopping_left .shopping_menu .shopping_menu_right li{ width:100%; text-align:left; padding-top:15px;}
+.shopping .shopping_left .shopping_menu .shopping_menu_right li:after{ content:""; height:0; clear:both; display:block} 
+.shopping .shopping_left .shopping_menu .shopping_menu_right .shoping_name{ width:100%; font-size:16px; color:#191919; }
+.shopping .shopping_left .shopping_menu .shopping_menu_right .shopping_price{ color:#ff0000;}
+.shopping .shopping_left .shopping_menu .shopping_menu_right .shopping_price span{ font-size:24px;}
+.shopping .shopping_left .shopping_menu .shopping_menu_right .shop_info{ color:#6c6c6c;}
+.shopping .shopping_left .shopping_menu .shopping_menu_right .shop_info span{ display: block; float:left; }
+.shopping .shopping_left .shopping_menu .shopping_menu_right .shop_info span i{ background: url(../images/weidian_icon.png) 502px -442px; width:20px; height:20px; display: block; float:left;}
+.shopping .shopping_left .shopping_menu .shopping_menu_right .shop_info span span{ color:#3b3b3b;}
+.shopping .shopping_left .shopping_menu .shopping_menu_right .shop_info .shopping_sale{ color:#f7f7f7; background:#ff444c; padding:0 7px; line-height:25px; margin-left:7px;}
+.shopping .shopping_left .shopping_menu .shopping_menu_right .shop_info em{display: block; float:left; padding:0 23px;}
+.shopping .shopping_left .shopping_menu .shopping_menu_right .shopping_txt{ color:#6c6c6c; float:left; width:54px;}
+.shopping .shopping_left .shopping_menu .shopping_menu_right .shopping_li_img{ float:left; border:1px solid #d9d9d9; margin-right:10px;}
+.shopping .shopping_left .shopping_menu .shopping_menu_right .shopping_li_img img{ width:48px; height:48px;}
+.shopping .shopping_left .shopping_menu .shopping_menu_right .shopping_li_size{ float:left; border:1px solid #d9d9d9; padding:0 10px; line-height:26px; color:#191919;margin-right:10px; }
+.shopping .shopping_left .shopping_menu .shopping_menu_right form{ margin-left:52px; width:340px; }
+.shopping .shopping_left .shopping_menu .shopping_menu_right form:after{ content:""; height:0; clear:both; display:block} 
+.shopping .shopping_left .shopping_menu .shopping_menu_right form input{ width:49px; height:45px; line-height:45px; border:1px solid #d9d9d9; float:left; text-align:center;}
+.shopping .shopping_left .shopping_menu .shopping_menu_right form .namub{ float:left; width:75px; height:45px; line-height:45px;}
+.shopping .shopping_left .shopping_menu .shopping_menu_right form .namub_right{ float:left; border:1px solid #d9d9d9; border-left:0;} 
+.shopping .shopping_left .shopping_menu .shopping_menu_right form .namub_top{background:url(../images/weidian_icon.png) 379px -125px; width:22px; height:22px; border-bottom:1px solid #d9d9d9;}
+.shopping .shopping_left .shopping_menu .shopping_menu_right form .namub_bottom{background:#efefef url(../images/weidian_icon.png) 342px -125px;width:22px; height:22px;}
+.shopping .shopping_left .shopping_menu .shopping_menu_right form button{ float:left; width:142px; height:47px; line-height:47px; color:#fff; font-size:18px; text-align:center; border-radius:5px; margin:25px 20px 0 0; }
+.shopping .shopping_left .shopping_menu .shopping_menu_right form button.shopping_cart{ background:#23cc9e; margin-left:20px; margin-top:0;}
+.shopping .shopping_left .shopping_menu .shopping_menu_right form button.shopping_shopping{ background:#fea348;}
+.shopping .shopping_left .shopping_menu .shopping_menu_right form button.shopping_shear{ background:#fe7748;}
+.shopping .shopping_content{ width:100%; padding-top:60px;}
+.shopping .shopping_content .shopping_content_title{ width:100%;}
+.shopping .shopping_content .shopping_content_title{ line-height:50px; background:#f0f0f0; font-size:16px;}
+.shopping .shopping_content .shopping_content_title dl{ width:100%; }
+.shopping .shopping_content .shopping_content_title dl:after{ content:""; height:0; clear:both; display:block} 
+.shopping .shopping_content .shopping_content_title dl dt{ float:right; margin-right:20px;}
+.shopping .shopping_content .shopping_content_title dl dt:after{ content:""; height:0; clear:both; display:block} 
+.shopping .shopping_content .shopping_content_title dl dt form{ float:left;}
+.shopping .shopping_content .shopping_content_title dl dt button{ width:90px; height:36px; line-height:36px; color:#fff; background:#fea348; font-size: 16px; margin:7px 18px 0 0;}
+.shopping .shopping_content .shopping_content_title dl dt .shopping_shaoma{ float:left; width:31px; height:31px; background:#fff; border:1px solid #e6e6e6; margin-top:10px; position:relative;}
+.shopping .shopping_content .shopping_content_title dl dt .shopping_shaoma:hover{ border:1px solid #FEA348;}
+.shopping .shopping_content .shopping_content_title dl dt .shopping_shaoma:hover:before{content:""; height:4px; width:31px; background:#fff; position:absolute; right:-0px;top: 31px; z-index:999; _display:none;} 
+.shopping .shopping_content .shopping_content_title dl dt .shopping_shaoma span{background:url(../images/weidian_icon.png); display:block;}
+.shopping .shopping_content .shopping_content_title dl dt .shopping_shaoma span.shaoma_img{ width:20px; height:20px; background-position:552px -442px; margin:3px 0 0 5px;} 
+.shopping .shopping_content .shopping_content_title dl dt .shopping_shaoma span.shaoma_jian{ background-position:481px -405px;width:11px; height:7px; margin-left:10px;}
+.shopping .shopping_content .shopping_content_title dl dt .shopping_shaoma:hover .shaoma_jian{ background-position:481px -414px;}
+.shopping .shopping_content .shopping_content_title dl dt .shopping_shaoma .shopping_shaoma_erweima{ display:none; position:absolute; left:-170px; top:32px; z-index:99; width:200px; padding:10px; border:1px solid #FEA348; background:#fff;}
+.shopping .shopping_content .shopping_content_title dl dt .shopping_shaoma:hover .shopping_shaoma_erweima{ display:block; }
+.shopping .shopping_content .shopping_content_title dl dt .shopping_shaoma .shopping_shaoma_erweima img{ width:185px; height:185px;}
+.shopping .shopping_content .shopping_content_title dl dt .shopping_shaoma .shopping_shaoma_erweima p{ font-size:12pz; color:#6c6c6c}
+.shopping .shopping_content .shopping_content_title dl dd{float:left; padding:0 30px; color:#191919; margin-right:1px; cursor:pointer;}
+.shopping .shopping_content .shopping_content_title dl dd a{color:#191919;}
+.shopping .shopping_content .shopping_content_title dl dd.title_curn,.shopping .shopping_content .shopping_content_title dl dd:hover{ background:#00bb88; color:#fff;}
+.shopping .shopping_content .shopping_content_title dl dd.title_curn a,.shopping .shopping_content .shopping_content_title dl dd:hover a,.shopping .shopping_content .shopping_content_title dl dd a:hover{color:#fff;}
+
+.shopping .shopping_dec{ width:100%; padding-top:30px;}
+.shopping .shopping_dec_title{ width:100%; border-bottom:1px solid #d9d9d9; font-size:18px; color:#191919; text-align:left; line-height:30px;}
+.shopping .shopping_dec_title span{ float:left; display:block; height:30px; width:30px;background:url(../images/weidian_icon.png); background-position:80px -10px; border-bottom:1px solid #00bb88; margin-right:10px;}
+.shopping .shopping_dec .shopping_dec_content{ padding-top:30px;}
+.shopping .shopping_comment{ padding-top:20px;}
+.shopping .shopping_comment .shopping_dec_title span{ background-position:115px -10px;} 
+.shopping .shopping_comment .shopping_conmment_content{ padding-top:25px;}
+.shopping .shopping_comment .shopping_conmment_top{ border:1px solid #f0f0f0;}
+.shopping .shopping_comment .shopping_conmment_top:after{ content:""; height:0; clear:both; display:block} 
+.shopping .shopping_conmment_top_left{ float:left; background:#fafafa; width:314px; height:137px; padding-top:85px; border-right:1px solid #f0f0f0;}
+.shopping .shopping_conmment_top_left p{ color:#6c6c6c; font-size:18px; padding-bottom:12px;}
+.shopping .shopping_conmment_top_left p span{ font-size:63px; color:#fea348;}
+.shopping .shopping_conmment_top_content{ float:left; width:334px; height:110px; padding:53px 0 0 29px;}
+.shopping .shopping_conmment_top_content:after{ content:""; height:0; clear:both; display:block} 
+.shopping .shopping_conmment_top_content dl{ width:100%;}
+.shopping .shopping_conmment_top_content dl:after{ content:""; height:0; clear:both; display:block} 
+.shopping .shopping_conmment_top_content dl dd{ border:1px solid #f0f0f0; background:#fafafa; margin:13px 32px 0 0; padding:0 15px; color:#6c6c6c; float:left;}
+.shopping .shopping_conmment_top_right{ float:right; padding:50px 25px 0 0;}
+.shopping .shopping_conmment_top_right .shopping_publish{ width:81px; height:93px; color:#fff; font-size:16px; background:#00bb88;}
+.shopping .shopping_conmment_top_right .shopping_publish span{ display:block; width:43px; height:48px;background:url(../images/weidian_icon.png) 649px -418px;margin: 4px 0 5px 18px;}
+.shopping .shopping_comment .shopping_conmment_top .shopping_conmment_top_right .shopping_publish a{ color:#FFF}
+.shopping .shopping_comment .shopping_conmment_bottom{ padding-top:50px;}
+.shopping .shopping_comment .zzsc{ width:100%; height:auto; margin:0px auto; font-size:14px; }
+.shopping .shopping_comment .zzsc .tab{ overflow:hidden; border-bottom:1px solid #f0f0f0; padding:0 20px; }
+.shopping .shopping_comment .zzsc .tab .tab_title{ float:left;}
+.shopping .shopping_comment .zzsc .tab .tab_form{ float:right; height: 45px; margin-right:10px;}
+.shopping .shopping_comment .zzsc .tab .tab_form .radio{ margin-right:10px;}
+.shopping .shopping_comment .zzsc .tab a{display: block; padding: 0px 10px; float: left; text-decoration: none; margin-right:20px; text-align: center; color: #6c6c6c;}
+.shopping .shopping_comment .zzsc .tab a:hover,.shopping .shopping_comment .zzsc .tab a.on{ color: #fff; text-decoration: none; background:#00bb88; border-radius:5px;}
+.shopping .shopping_comment .zzsc .content_tab{ overflow:hidden; }
+.shopping .shopping_comment .zzsc .content_tab ul li{ display:none;}
+.shopping .shopping_comment .zzsc form sapn{ color:#6c6c6c;}
+.shopping .shopping_comment .appraise_li-list{ width:100%; margin-bottom:25px;}
+.shopping .shopping_comment .appraise_li-list dd{ border-bottom: 1px solid #d9d9d9; padding: 20px 10px 20px 10px; height:auto;  width: 900px; }
+.shopping .shopping_comment .appraise_li-list dd:after{ content:""; height:0; clear:both; display:block}
+.shopping .shopping_comment .appraise_li-list_right{ float:left; width:566px; margin-left: 20px; }
+.shopping .shopping_comment .appraise_li-list_right:after{ content:""; height:0; clear:both; display:block} 
+.shopping .shopping_comment .appraise_li-list_img{ float:left; width: 85px;}
+.shopping .shopping_comment .appraise_li-list_img p{ color:#2a2a2a; padding-top:10px;}
+.shopping .shopping_comment .appraise_li-list_icon{ border-radius:50%; width:85px; height:85px; overflow:hidden;}
+.shopping .shopping_comment .appraise_li-list_icon img{ width:100%; }
+.shopping .shopping_comment .appraise_li-list_img p{ text-align:center; color:#6c6c6c;}
+.shopping .shopping_comment .appraise_li-list_top{   width:100%; background:#f5f5f5; line-height:36px; }
+.shopping .shopping_comment .appraise_li-list_top:after{ content:""; height:0; clear:both; display:block} 
+.shopping .shopping_comment .appraise_li-list_top .appraise_li-list_top_icon{ float:left;}
+.shopping .shopping_comment .appraise_li-list_top span{ display: block; height:30px; width:57px;background:url(../images/weidian_icon.png); margin-top:3px; margin-right:5px; line-height:29px; color:#fff;}
+.shopping .shopping_comment .manyi span{ background-position:379px -363px}
+.shopping .shopping_comment .appraise_li-list_top .yiban span{ background-position:326px -363px}
+.shopping .shopping_comment .appraise_li-list_top .bumanyi span{ background-position:269px -363px; width:64px;}
+.shopping .shopping_comment .appraise_li-list_top .list_top_txt{ float:left; color:#6c6c6c; margin-right:13px;}
+.shopping .shopping_comment .appraise_li-list_data{ float: left; color:#b4b4b4; }
+.shopping .shopping_comment .appraise_li-list_txt{ color:#6c6c6c;float:left; text-align:left; padding-right:20px; }
+.shopping .shopping_comment .appraise_give{ width:127px; height:92px;background:url(../images/weidian_icon.png) 192px -220px; float:right; font-size:12px; color:#634a0e; text-align:left; padding:19px 0 0 18px; margin-top:2%}
+.shopping .shopping_comment .appraise_give p{}
+.shopping .shop_pingjia{   width:100%;}
+.shopping .shop_pinjiga_title{ color:#232323; font-size:18px; margin-left:10px;   margin-bottom: 5px; text-align:left;}
+.shopping .shop_pinjgia_form{ width:100%; border:1px solid #d9d9d9;  padding-bottom: 22px; }
+.shopping .shop_pinjgia_form:after{ content:""; height:0; clear:both; display:block} 
+.shopping .shop_pinjgia_form .shop_pingjia_form_list_zong{ float:left;  width: 8%;  margin-left: 2%; text-align:right;}
+.shopping .shop_pingjia_form_list ul{  float:left; width:87%; margin-left:1%;}
+.shopping .shop_pingjia_form_list ul li input{ float:left;  margin-top: 10px;}
+.shopping .shop_pingjia_form_list ul li label{ float:left;}
+.shopping .shop_pingjia_form_list ul:after{ content:""; height:0; clear:both; display:block}
+.shopping .shop_pingjia_form_list ul.biaoqian li{ border:1px solid #d9d9d9;  padding: 0 10px;    margin: 5px 10px 0 0;  color: #191919; font-size: 12px;}
+.shopping .shop_pingjia_form_list ul.biaoqian li:hover,.shopping .shop_pingjia_form_list ul.biaoqian li.biaoqian_curn{ border:1px solid #00bb88;}
+.shopping .shop_pingjia_form_list ul li{ float:left; color:#767676; }
+.shopping .shop_pingjia_form_list ul li.zong{ border:0;}
+.shopping .shop_pingjia_form_list ul li .pingjia_icon{ float:left;  padding: 4px 2px 0 2px;}
+.shopping .shop_pingjia_form_list ul li .pingjia_txt{ float:left;}
+.shopping .shop_pinjgia_form .textarea{border-bottom:1px solid #d9d9d9;}
+.shopping .shopping_comment .shop_pingjia_form_list{ width:100%; background:none;   border-bottom:1px solid #d9d9d9;line-height:30px; padding:10px 0;  }
+.shopping .shop_pingjia .form_textarea{ width:100%; height:194px;}
+.shopping .shop_pingjia .button{ color:#767676; margin:15px 0;}
+.shopping .shop_pingjia .button_txt{ float:left; margin-left:20px;}
+.shopping .shop_pingjia .button_txt span{ margin-left:5px;}
+.shopping .shop_pingjia .form_button{ line-height:34px; text-align:center; width:67px; height:34px; color:#fff; background:#00BB88; border-radius:5px; overflow:hidden; float:right;  font-size: 16px;
+  font-weight: bold;}
+.shopping .shop_pingjia_list{ float:left;  width: 822px;}
+.shopping .shop_pingjia_list:after{ content:""; height:0; clear:both; display:block} 
+.shopping .shop_pinjgia_form .updat_pic{   width:100px; height:100px; line-height:100px; color:#6c6c6c; float:left; margin-left:10px;}
+.shopping .shop_pinjgia_form .updat_pic p{  margin-top: -36px;  text-align: right;}
+.shopping .shop_pinjgia_form .ehdel_upload {   width:100px; height:100px;  filter: alpha(opacity=0);  -moz-opacity: 0;  opacity: 0; margin-top:-100px;}
+.shopping .shop_pinjgia_form .baodiv3 {  width: 100%;}
+.shopping .shop_pingjia_list ul{ float:left; width:700px;}
+.shopping .shop_pingjia_list ul:after{ content:""; height:0; clear:both; display:block} 
+.shopping .shop_pingjia_list ul li{ float:left; width:102px; height:102px; border:1px solid #d9d9d9; margin-right:10px; margin-bottom:10px; position: relative;  }
+.shopping .shop_pinjgia_form .shop_pingjia_list ul li span{background:url(../images/weidian_icon.png) 193px -412px; width:15px; height:15px; position:absolute; top:0; right:0; }
+.shopping .shop_pingjia_list ul li img{ width:102px; height:102px;}
+.shopping .shopping_right{ float:right; width:267px;}
+.shopping .shopping_right .shop_info_tab{ padding:15px 10px; background:#f7f7f7;}
+.shopping .shopping_right .shop_info_tab_top{}
+.shopping .shopping_right .shop_info_tab_top:after{ content:""; height:0; clear:both; display:block} 
+.shopping .shopping_right .shop_info_tab_top .shop_info_tab_img{ float:left;}
+.shopping .shopping_right .shop_info_tab_top .shop_info_tab_img img{ height:121px; width:121px;}
+.shopping .shopping_right .shop_info_tab_top .shop_info_tab_list{ float:left; padding-left:10px; line-height: 21px;}
+.shopping .shopping_right .shop_info_tab_top .shop_info_tab_list_name{ color:#191919; text-align:left;}
+.shopping .shopping_right .shop_info_tab_top .shop_info_tab_list_dec{ color:#6c6c6c; font-size:12px;text-align:left;}
+.shopping .shopping_right .shop_info_tab_top .shop_info_tab_list_bor{font-size:12px; line-height:23px; margin-top:5px;}
+.shopping .shopping_right .shop_info_tab_top .shop_info_tab_list_bor:after{ content:""; height:0; clear:both; display:block} 
+.shopping .shopping_right .shop_info_tab_top .shop_info_tab_list_bor button{ color:#191919; border:1px solid #d9d9d9; padding:0 10px; float:left; }
+.shopping .shopping_right .shop_info_tab_top .shop_info_tab_list_bor .shop_info_tab_list_txt{ color:#6c6c6c; padding-left:10px; float:left;}
+.shopping .shopping_right .shop_info_tab_top .phone_number{ font-size:12px; color:#6c6c6c; }
+.shopping .shopping_right .shop_info_tab_top .phone_number span{ width:18px; height:18px; display:block; float:left;background:url(../images/weidian_icon.png) 610px -444px;}
+.shopping .shopping_right .shop_info_tab_bottom:after{ content:""; height:0; clear:both; display:block} 
+.shopping .shopping_right .shop_info_tab_bottom button{ width:102px; height:40px; line-height:40px; font-size:16px; color:#fff; margin-top:13px;}
+.shopping .shopping_right .shop_info_tab_bottom button.go_shop{ background:#23cc9e; }
+.shopping .shopping_right .shop_info_tab_bottom button.contact_shop{ background:#59c2e5;}
+.shopping .shopping_right .shop_info_tab .content_conmment_list{ margin-top:15px; border-top:1px solid #d9d9d9; padding-top:15px;}
+.shopping .shopping_right .shop_info_tab .content_conmment{ width:100%;}
+.shopping .shopping_right .shop_info_tab .content_conmment:after{ content:""; height:0; clear:both; display:block}
+.shopping .shopping_right .shop_info_tab .content_asit_img{ border:1px solid #d9d9d9; float:left;}
+.shopping .shopping_right .shop_info_tab .content_asit_img img{ width:43px; height:43px;}
+.shopping .shopping_right .shop_info_tab .content_custom{ float:left; color:#111111; padding-left: 20px; text-align:left;}
+.shopping .shopping_right .shop_info_tab .content_custom .content_time{white-space:nowrap; overflow:hidden; text-overflow:ellipsis; width:100px;}
+.shopping .shopping_right .shop_info_tab .content_custom .content_time a{ color:#111111;}
+.shopping .shopping_right .shop_info_tab .content_custom .content_time a:hover{ color:#00bb88;}
+.shopping .shopping_right .shop_info_tab .content_custom p{ font-size:13px; color:#9a9a9a;}
+.shopping .shopping_right .shop_info_tab .content_comment_txt{ color:#010101; background:url(../images/weidian_icon.png) 641px -352px; width:197px; height:44px;
+ float:left; margin-top:3px; line-height: 45px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.content .shopping_list{}
+.content .shopping_list .shopping_list_title{ border-bottom:1px solid #d9d9d9; font-size:18px; background:#f5f5f5; color:#191919; padding-left:15px; text-align:left; line-height:48px;}
+.content .shopping_list li{ border-bottom:1px dashed #d9d9d9; margin:0 10px; padding:15px 0;}
+.content .shopping_list li img{ width:212px; height:212px;}
+.content .shopping_list li .content_list_txt{ padding:0 3%; width:94%;}
+.content .shopping_list li .content_list_txt:after{ content:""; height:0; clear:both; display:block}
+.content .shopping_list li .content_shop_name{ float:left; font-size:14px; color:#191919;white-space:nowrap; overflow:hidden; text-overflow:ellipsis; width:115px;} 
+.content .shopping_list li:hover .content_list_erweima{ display:none;}
+.content .shopping_list { border:1px solid #d9d9d9; margin-top: 46px;}
+.content .shopping_list .content_shop_jion{ color:#6c6c6c; float:right;margin-right:5px;}
+.content .shopping_list .content_shop_jion span{ color:#ffba41;}
+.content .shopping_right .content_activity_asid{ background:none; margin-top:24px; border:1px solid #d9d9d9; padding:0; width:auto;}
+.content .shopping_right dl dt .content_activity_asid_title{border-bottom:1px solid #d9d9d9; font-size:18px; background:#f5f5f5; color:#191919; padding-left:15px; text-align:left; line-height:48px; padding:0 15px; font-weight:normal;}
+.content .shopping_right dl dd{ margin:0 15px;}
+
+.activi_header{ width:100%; height:360px; background:url(../images/activity_02.png) no-repeat center top; margin:10px 0;}
+.activi_header .activi_header_content{ width:1210px; margin:0 auto;}
+.activi_header .activi_header_content:after{ content:""; height:0; clear:both; display:block}
+.activi_header .activi_header_content .activi_header_content_left{ width:910px; float:left;}
+.activi_header .activi_header_content .activi_header_content_right{ width:264px; height:360px; float:right;}
+.activi_header .activi_header_content .activi_header_top{ width:220px; height:94px; background:#61c7f7; color:#fff; padding:0 22px;text-align:left; position:relative;}
+.activi_header .activi_header_content .activi_header_top:after{ content:""; height:0; clear:both; display:block}
+.activi_header .activi_header_content .activi_header_title{ line-height:47px; font-size:18px;  border-bottom:1px  dashed #fff;}
+.activi_header .activi_header_content .activi_header_title:after{ content:""; height:0; clear:both; display:block}
+.activi_header .activi_header_content .activi_header_title span{ display:block; float:left;  background:url(../images/weidian_icon.png) 434px -435px; width:35px; height:35px; margin-top: 5px;  margin-left: 42px;}
+.activi_header .activi_header_content .activi_header_top  p{ font-size:14px; line-height:30px; display:block; float:left;   }
+.activi_header .activi_header_content .activi_header_top  p span{ color:#ffd800;}
+.activi_header .activi_header_content .activi_header_top .activi_header_title_p_r{ float:right;}
+.activi_header .activi_header_content .jiantou{ width:32px; height:25px;background:url(../images/weidian_icon.png) 390px -435px; left:45%; bottom:-14px; position:absolute; z-index:9;}
+.activi_header .activi_header_content .activi_header_bottom{ width:265px; height:265px; background:#e5e5e5;}
+.activi_header .activi_header_content .activi_header_bottom img{ width:265px; height:265px;}
+.activity .content_list_activity{ width:1230px;}
+.activity .content_list_activity .content_list_ul{ width:1230px;}
+.activity .content_list_activity .content_list_ul li.activity_list{ width:470px; height:270px; padding:0;}
+.activity .content_list_activity .content_list_ul li.activity_list img{ width:100%; height:100%;}
+.activity .content_list_activity .content_list_ul li{ width:224px; height:270px;}
+.activity .content_list_activity .content_list_ul li img{ width:224px; height:224px;}
+
+.shop_list{}
+.shop_list:after{ content:""; height:0; clear:both; display:block}
+.shop_list .shop_list_left{ float:left; width:925px; _overflow:hidden;}
+.shop_list .shop_list_left .content_list{ width:100%;}
+.shop_list .shop_list_left .content_list .content_list_ul{   width: 945px;}
+.shop_list .shop_list_left .content_list .content_list_ul li {  width: 214px;  }
+.shop_list .shop_list_left .content_list .content_list_ul li img {  width: 214px;  height: 216px;}
+.shop_list .shop_list_left .content_list .content_list_ul li div.content_list_img{width: 214px;  height: 216px;display: table-cell;vertical-align: middle}
+
+.shop_list .shop_list_right{ float:right; width:268px; text-align:left;}
+.shop_list .shop_list_right .shop_list_title{ line-height:46px; padding-left:11px; font-size:18px; color:#191919; background:#f5f5f5; border-bottom:1px solid #d9d9d9;}
+.shop_list .shop_list_right .shop_list_right_top{ border:1px solid #d9d9d9;}
+.shop_list .shop_list_right img{ width:80px; width:80px;}
+.shop_list .shop_list_right .shop_list_right_top li{ padding:25px 5px 25px 5px; margin:0 7px; border-bottom:1px dotted #d9d9d9; }
+.shop_list .shop_list_right .shop_list_tab_top{ width:242px;}
+.shop_list .shop_list_right .shop_list_tab_top:after{ content:""; height:0; clear:both; display:block}
+.shop_list .shop_list_right .shop_list_tab_top_img{ float:left; position:relative;}
+.shop_list .shop_list_right .shop_list_tab_top_img img{ width:80px; height:80px;} 
+.shop_list .shop_list_right .shop_list_tab_top .shop_list_tab_top_img .shop_list_paimin{ position:absolute; left:7px; top:-5px; color:#fff; width:33px; height:34px;   font-size: 10px;  text-align: center; line-height: 13px;  padding-top: 5px;background: url(../images/weidian_icon.png) 534px -477px;}
+.shop_list .shop_list_right .shop_list_tab_top .shop_list_tab_top_img .dongw{ background-position:481px -477px;}
+.shop_list .shop_list_right .shop_list_tab_top .shop_list_tab_top_img .shop_list_paimin p{ display:block;padding-right: 6px;}
+.shop_list .shop_list_right .shop_list_tab_top_list{ float:left; width:150px; margin-left:10px;  color:#6c6c6c;}
+.shop_list .shop_list_right .shop_list_tab_top .shop_list_tab_top_list .shop_list_name{ font-size:13px;color:#191919;line-height:12px;}
+.shop_list .shop_list_right .shop_list_tab_top .shop_list_tab_top_list .shop_list_dec{ font-size:12px; line-height:20px;}
+.shop_list .shop_list_right .shop_list_tab_top .shop_list_tab_top_list .phone_number{ font-size:13px;}
+.shop_list .shop_list_right .shop_list_tab_top .shop_list_tab_top_list .phone_number span{width: 18px;  margin-top: 2px;  height: 18px;  display: block;  float: left;  background: url(../images/weidian_icon.png) 610px -444px;}
+.shop_list .shop_list_right .shop_list_tab_top .shop_list_add{ font-size:14px; width:100%;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;}
+.shop_list .shop_list_right .shop_list_bottom{ width:100%; height:auto; background:#f5f5f5; margin-top:20px;}
+.shop_list .shop_list_right .shop_list_bottom .shop_list_bottom_title{ font-size:16px; line-height:44px; color:#191919;}
+.shop_list .shop_list_right .shop_list_bottom .shop_list_bottom_title .shop_list_bottom_title_icon{ display:block; float:left; width:25px; height:25px;background: url(../images/weidian_icon.png) 467px -440px;  margin: 9px 2px 0 5px;}
+.shop_list .shop_list_right .shop_list_bottom .shop_list_bottom_title:after{ content:""; height:0; clear:both; display:block} 
+.shop_list .shop_list_right .shop_list_bottom { padding-bottom:30px; position:relative;}
+.shop_list .shop_list_right .shop_list_tab_bottom:after{ content:""; height:0; clear:both; display:block}
+.shop_list .shop_list_right .shop_list_bottom ul{ height:785px; }
+.shop_list .shop_list_right .shop_list_bottom .shop_border{ position:absolute; width:2px; height:785px; background: url(../images/weidian_icon.png) 24px -761px; top:43px; left:1px;}
+.shop_list .shop_list_right .shop_list_bottom ul li{ width:100%; height:785px;}
+.shop_list .shop_list_right .shop_list_bottom dl{}
+.shop_list .shop_list_right .shop_list_bottom dd{ width:209px; height:80px; padding:15px 0 15px 19px; background:#fff; margin-left:30px; margin-top:16px; position:relative; }
+.shop_list .shop_list_right .shop_list_bottom dd .dd_left_yuan{ width:10px; height:10px;background: url(../images/weidian_icon.png) 215px -415px; position:absolute;  top: 52px;  left: -29px;}
+.shop_list .shop_list_right .shop_list_bottom dd .dd_left_jian{ width:13px; height:10px;background: url(../images/weidian_icon.png) 244px -413px; position:absolute;  top: 52px;  left: -9px;}
+.shop_list .shop_list_right .shop_list_tab_bottom .shop_list_tab_top_list{  margin:0; width:100px; margin-right:10px;}
+.shop_list .shop_list_right .shop_list_tab_bottom .shop_list_tab_top_list .shop_list_name{ font-size:14px;color:#191919;line-height:21px;}
+.shop_list .shop_list_right .shop_list_tab_bottom .shop_list_tab_top_list .shop_list_dec{ font-size:12px; line-height:20px;}
+.shop_list .shop_list_right .shop_list_tab_bottom .shop_list_tab_top_list .shop_fenxiao{ background:#ff444c; width:82px; text-align:center; line-height:30px;  margin-top: 9px;}
+.shop_list .shop_list_right .shop_list_tab_bottom .shop_list_tab_top_list .shop_fenxiao a{ color:#fff;}
+
+.shop_header{ width:1210px; margin: 0 auto; padding-top:57px;}
+.shop_header:after{ content:""; height:0; clear:both; display:block}
+.shop_header .shop_header_left{ float:left; width:700px;} 
+.shop_header .shop_header_left:after{ content:""; height:0; clear:both; display:block}
+.shop_header .shop_header_left .shop_header_left_img{ border:1px solid #d9d9d9;width:238px; float:left;}
+.shop_header .shop_header_left .shop_header_left_img img{ width:238px; height:178px;}
+.shop_header .shop_header_left .shop_header_left_list{ float:left; text-align:left; margin-left:20px;}
+.shop_header .shop_header_left .shop_header_left_list ul li{line-height:32px;}
+.shop_header .shop_header_left .shop_header_left_list ul li:after{ content:""; height:0; clear:both; display:block}
+.shop_header .shop_header_left .shop_header_left_list .shop_name{ float:left; font-size:18px; color:#191919;}
+.shop_header .shop_header_left .shop_header_left_list .shop_comment{ float: left;  padding:3px 10px; }
+.shop_header .shop_header_left .shop_header_left_list .shop_comment:after{ content:""; height:0; clear:both; display:block}
+.shop_header .shop_header_left .shop_header_left_list .shop_comment span{ width:18px; height:18px; float:left; display:block;background: url(../images/weidian_icon.png); background-position:304px -444px;  }
+.shop_header .shop_header_left .shop_header_left_list .shop_comment span.shop__comment_curn{background-position:340px -444px}
+.shop_header .shop_header_left .shop_header_left_list .shop_rengzheng{background: url(../images/weidian_icon.png) 640px -488px; float:left; line-height:25px; width:56px; height:25px; color:#fff;   padding-left: 28px;}
+.shop_header .shop_header_left .shop_header_left_list .shop_list_txt{ float:left; font-size:14px; color:#6c6c6c; padding-right:10px; }
+.shop_header .shop_header_left .shop_header_left_list .shop_list_txt span{ color:#f89900}
+.shop_header .shop_header_left .shop_header_left_list .shop_yingye{ background:#27d6a6; color:#fff; padding:0 15px ; float:left; font-size:14px; margin-right:20px;}
+.shop_header .shop_header_left .shop_header_left_list dl{  padding-top: 15px;}
+.shop_header .shop_header_left .shop_header_left_list dl:after{ content:""; height:0; clear:both; display:block}
+.shop_header .shop_header_left .shop_header_left_list dd{ float:left; width:88px; height:31px;background: url(../images/weidian_icon.png) 428px -481px; text-align:center; color:#00bb88; margin-right:15px;} 
+.shop_header .shop_header_left .shop_header_left_list dd:hover{background: url(../images/weidian_icon.png) 324px -481px;}
+.shop_header .shop_header_left .shop_header_left_list dd a{color:#00bb88;}
+.shop_header .shop_header_left .shop_header_left_list dd:hover a{color:#fff;}
+.shop_header .shop_header_content{ float:left;}
+.shop_header .shop_header_content:after{ content:""; height:0; clear:both; display:block}
+.shop_header .shop_header_content ul:after{ content:""; height:0; clear:both; display:block} 
+.shop_header .shop_header_content ul li{ float:left; width:72px; height:53px; padding:14px 0px; color:#fff; font-size:14px; margin-right:12px; line-height:30px;} 
+.shop_header .shop_header_content ul li.peisong{ background:#edd02d;}
+.shop_header .shop_header_content ul li.qijia{background:#6fc7f0;}
+.shop_header .shop_header_content ul li.songda{background:#f27545;}
+.shop_header .shop_header_content ul li p {}
+.shop_header .shop_header_content ul li p span{ font-size:12px;}
+.shop_header .shop_header_content ul li p em{font-size:25px;}
+.shop_header .shop_header_right{ float:right;  width:172px; height:181px; font-size:16px; color:#191919; border-left:1px solid #d9d9d9;}
+.shop_header .shop_header_right img{ border:1px solid #d9d9d9; margin:15px 0;}
+.shop_activity_list{ height:47px; width:1210px; line-height:47px; font-size:14px; color:#6c6c6c; margin:0 auto; border:1px solid #d9d9d9; margin-top:27px;}
+.shop_activity_list ul{  width: 913px;  margin: 0 auto;}
+.shop_activity_list ul:after{ content:""; height:0; clear:both; display:block} 
+.shop_activity_list li{ float:left; margin-right:60px; width:244px;}
+.shop_activity_list li:after{ content:""; height:0; clear:both; display:block} 
+.shop_activity_list li span{ float:left; color:#fff; width:22px; height:22px; line-height:22px;  margin-top: 12px;  margin-right: 7px;}
+.shop_activity_list li span.zeng{ background:#edd02d;}
+.shop_activity_list li span.jian{ background:#6fc7f0;}
+.shop_activity_list li span.st{ background:#f27545;}
+.shop_activity_list li .shop_activity_list_txt{ float:left;}
+.shop_content{ width:1210px; margin:0 auto;}
+.shop_content .tab1{width:1210px; margin-top:80px;}
+.shop_content .tab1:after{ content:""; height:0; clear:both; display:block}
+.shop_content .menu{height:auto;border:#d9d9d9 solid 1px; width:242px; float:left; text-align:center; background:#23cc9e}
+.shop_content .menu li{ width:100%;text-align:center;line-height:76px;height:77px;cursor:pointer; color:#fff;font-size:18px;overflow:hidden;   }
+.shop_content .menu li .menu_border{ width:80%; margin:0 auto;border-bottom:1px solid #fff;  }
+.shop_content .menu li:hover{background:#00bb88;color:#fff; }
+.shop_content .menu li.off{background:#00bb88;color:#fff; }
+.shop_content .menudiv{ width:925px; height:auto; float: right;  min-height:500px; padding:0; padding-bottom:50px; margin:0px;}
+.shop_content .menudiv .shop_content{ padding:0;}
+.shop_content .menudiv shopping_conmment_content{ padding:0;}
+.shop_content .menudiv .shopping_comment{ padding:0;}
+.shop_content .menudiv .shopping_comment .shopping_conmment_content{ padding:0;}
+.shop_content .shop_menu{ width:100%; min-width:1210px; background:#fe5842;height:50px;}
+.shop_content .shop_menu .box_menu{ width:1210px; height:50px; margin:0 auto;}
+.shop_content .shop_menu .box_menu .crun{background:#ea3e27;}
+.shop_content .shop_menu .box_menu li{ line-height:50px; float:left; font-size:18px; color:#fff}
+.shop_content .shop_menu .box_menu li:hover{background:#ea3e27;color:#fff;}
+.shop_content .shop_menu .box_menu li a { padding:0 26px; color:#fff; height:50px; _padding:0 20px;}
+.shop_content shop_menu .box_menu li a:hover{ background:#ea3e27;color:#fff;}
+.shop_content .shop_list_left .content_list .content_list_ul {width:945px;}
+
+.shop_map{width: 880px; border:1px solid #d9d9d9; padding:20px;}
+.shop_map .shop_map_title{ font-size:18px; line-height:35px; color:#191919; text-align:left; padding-bottom:10px;}
+.shop_map .shop_map_img{ width:848px; height:483px;}
+.shop_map .shop_map_dec{ color:#6c6c6c; text-align:right; padding-top:10px;}
+
+.fenxiao{ width: 880px;border:1px solid #d9d9d9;padding:20px;}
+.fenxiao ul{ padding-bottom:35px;}
+.fenxiao ul li{ border-bottom:1px dotted #d9d9d9; padding:17px 8px;}
+.fenxiao ul li:after{ content:""; height:0; clear:both; display:block}
+.fenxiao ul li .fenxiao_img{ float:left; width:43px; border:1px solid #d9d9d9;}
+.fenxiao ul li .fenxiao_img img{ width:43px; height:43px;}
+.fenxiao ul li .fenxiao_txt{ float:right; width:790px;}
+.fenxiao ul li .fenxiao_top{ color:#111; width:100%; text-align:left;}
+.fenxiao ul li .fenxiao_bottom{ width:100%; font-size:14px;}
+.fenxiao ul li .fenxiao_bottom:after{ content:""; height:0; clear:both; display:block}
+.fenxiao ul li .fenxiao_bottom .fenxiao_lirun{ float:left; color:#9a9a9a}
+.fenxiao ul li .fenxiao_bottom .fenxiao_time{ color:#6c6c6c; float:right;}
+ 
+
+

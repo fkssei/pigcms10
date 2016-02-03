@@ -1,0 +1,632 @@
+.page-settlement .settlement-info {
+  
+}
+.page-settlement .account-info {
+    padding: 20px;
+    background:rgba(255,255,255,0.3);
+    zoom: 1;
+}
+.page-settlement .balance {
+    padding: 10px 0;
+    border-top: 1px solid #e5e5e5;
+    background: rgba(255,255,255,0.4);
+    zoom: 1;
+}
+.page-settlement .account-info img {
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+.page-settlement .account-info .account-info-meta {
+    margin-left: 100px;
+}
+
+.page-settlement .account-info .account-info-meta label {
+    display: inline;
+    color: #999;
+    cursor: text;
+}
+.page-settlement .balance .balance-info {
+    float: left;
+    width: 33.33%;
+    margin-left: -1px;
+    padding: 0 20px;
+    border-left: 1px solid #e5e5e5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.page-settlement .account-info .account-info-meta a {
+    margin-left: 10px;
+}
+.page-settlement .balance .balance-info .balance-title {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 10px;
+}
+a {
+    color: #07d;
+    text-decoration: none;
+}
+.page-settlement .balance .balance-info .balance-content .unit {
+    font-size: 12px;
+    color: #666;
+}
+.page-settlement .balance .balance-info .balance-content .money {
+    font-size: 25px;
+    color: #f60;
+}
+.page-settlement .balance .balance-info .balance-content a {
+    vertical-align: baseline;
+    line-height: 28px;
+}
+.page-settlement .balance .balance-info .balance-content span, .page-settlement .balance .balance-info .balance-content a {
+    vertical-align: baseline;
+    line-height: 28px;
+}
+.ui-btn-disabled.ui-btn-primary, .ui-btn-disabled:hover.ui-btn-primary, .ui-btn-disabled:focus.ui-btn-primary, .ui-btn-disabled:active.ui-btn-primary {
+    color: #fff;
+    background: #8db0ce;
+    border-color: #82a2bd;
+}
+.ui-btn-primary:hover,.ui-btn-primary:focus{color:#fff;background:#0080ed;border-color:#0066be;}
+.ui-title {
+    padding: 11px 14px;
+    background: #F8F8F8;
+}
+.ui-box {
+    margin-bottom: 15px;
+	background:rgba(255,255,255,0.3);
+	margin:0px;
+}
+.ui-title h1, .ui-title h2, .ui-title h3, .ui-title h4, .ui-title h5, .ui-title h6 {
+    display: inline-block;
+    padding: 0 6px;
+    border-left: 3px solid #FF6600;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+}
+.pull-right {
+    float: right;
+}
+.page-settlement .pay-mode-list {
+    margin-left: -10px;
+}
+.page-settlement .pay-mode-item {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e5e5e5;
+}
+.page-settlement .pay-mode-icon-wxpay {
+    background-position: -1px 0;
+}
+.page-settlement .pay-mode-icon {
+    float: left;
+    width: 98px;
+    height: 98px;
+    background-image: url("../images/pay@1x.png");
+}
+.page-settlement .pay-mode-meta {
+    float: left;
+    width: 320px;
+    height: 100px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.page-settlement .pay-mode-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+.page-settlement .pay-mode-enable {
+    background-image: url("../images/enable.png");
+}
+.page-settlement .pay-mode-enable, .page-settlement .pay-mode-disable {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 4px;
+    background-size: contain;
+}
+.page-settlement .pay-mode-description {
+    line-height: 20px;
+    color: #999;
+}
+.page-settlement .pay-mode-icon-unionpay {
+    background-position: -1px -101px;
+}
+.page-settlement .pay-mode-icon {
+    float: left;
+    width: 98px;
+    height: 98px;
+    background-image: url("../images/pay@1x.png");
+}
+.page-settlement .pay-mode-icon-bdpay {
+    background-position: -1px -201px;
+}
+.page-settlement .pay-mode-icon {
+    float: left;
+    width: 98px;
+    height: 98px;
+    background-image: url("../images/pay@1x.png");
+}
+.page-settlement .pay-mode-icon-alipay {
+    background-position: -1px -301px;
+}
+.page-settlement .pay-mode-icon {
+    float: left;
+    width: 98px;
+    height: 98px;
+    background-image: url("../images/pay@1x.png");
+}
+
+.page-settlement .account-info .info-item {
+    margin-top: 7px;
+}
+.ui-money, .ui-money-income, .ui-money-outlay {
+    font-weight: bold;
+    color: #333;
+}
+.ui-money-income {
+    color: #55BD47;
+}
+.ui-money-outlay {
+    color: #f00;
+}
+.list-filter-form input {
+    width: 125px;
+}
+.hasDatepicker[readonly] {
+    background-color: #fff;
+    cursor: pointer;
+}
+.list-filter-form input.input-large {
+    width: 160px;
+}
+.list-filter-form select {
+    width: 139px;
+}
+.list-filter-form .ui-btn {
+	height:20px; line-height:20px;
+}
+.list-filter-form .ui-btn-primary {
+    margin-left: 28px;
+    margin-right: 10px;
+}
+.list-filter-form .date-quick-pick {
+    display: inline-block;
+    color: #07d;
+    cursor: pointer;
+    padding: 2px 4px;
+    border: 1px solid transparent;
+    margin-left: 12px;
+    border-radius: 4px;
+}
+.list-filter-form .date-quick-pick+.date-quick-pick {
+    margin-left: 0;
+}
+.list-filter-form .date-quick-pick.current {
+    background: #fff;
+    border-color: #07d!important;
+}
+.list-filter-form .date-quick-pick:hover{border-color:#ddd;}
+.page-settlement .settingWithdrawal-region {
+    border: 1px solid #e5e5e5;
+}
+.page-settlement .settingWithdrawal-region .header {
+    font-size: 14px;
+    color: #333;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 12px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.page-settlement .settingWithdrawal-region .form-horizontal {
+    margin-bottom: 0px !important;
+}
+.page-settlement .settingWithdrawal-region .form-horizontal .form-top-info {
+    margin-top: 30px;
+    padding: 0;
+}
+.page-settlement .settingWithdrawal-region .form-horizontal .type-wrap {
+    margin: 25px auto;
+}
+.page-settlement .settingWithdrawal-region .form-horizontal .type-wrap .control-label {
+    padding-top: 25px;
+}
+.page-settlement .settingWithdrawal-region .form-horizontal .info-row {
+    line-height: 18px;
+    padding-top: 5px;
+    font-size: 14px;
+}
+.page-settlement .settingWithdrawal-region .type-item {
+    float: left;
+    margin-right: 20px;
+}
+.page-settlement .settingWithdrawal-region .type-item input[type=radio] {
+    display: none;
+}
+.page-settlement .settingWithdrawal-region .type-item label {
+    width: 175px;
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    font-weight: normal;
+    cursor: pointer;
+    margin: 0;
+}
+.page-settlement .settingWithdrawal-region .type-item input[type=radio]:checked+label {
+    position: relative;
+    margin-left: -1px;
+    margin-top: -1px;
+    width: 174px;
+    background-color: #fff9f1;
+    border: 2px solid #f60;
+    cursor: default;
+}
+.page-settlement .settingWithdrawal-region .type-item input[type=radio]:checked+label::after, .page-settlement .settingWithdrawal-region .type-item input[type=radio]:checked+label::before {
+    content: "";
+    position: absolute;
+    bottom: -28px;
+    left: 50%;
+    margin-left: -10px;
+    border: 10px solid transparent;
+    z-index: 100;
+}
+.page-settlement .settingWithdrawal-region .type-item input[type=radio]:checked+label::before {
+    border-bottom-color: #e5e5e5;
+}
+.page-settlement .settingWithdrawal-region .type-item .type-item-title {
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #333;
+}
+.page-settlement .settingWithdrawal-region .type-item .type-item-content {
+    margin: 0;
+}
+.page-settlement .settingWithdrawal-region .type-item input[type=radio]:checked+label::after {
+    border-bottom-color: #f8f8f8;
+    bottom: -29px;
+}
+.page-settlement .settingWithdrawal-region .type-item {
+    float: left;
+    margin-right: 20px;
+}
+.page-settlement .settingWithdrawal-region .type-item:last-child {
+    margin-right: 0;
+}
+.page-settlement .settingWithdrawal-region .type-content {
+    position: relative;
+    padding: 30px 70px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e5e5e5;
+}
+.page-settlement .settingWithdrawal-region .type-content .text-strong {
+    color: #FF6600;
+}
+.page-settlement .settingWithdrawal-region .type-content .controls {
+    margin-left: 140px;
+}
+.page-settlement .settingWithdrawal-region .type-content .bank-map select {
+    width: 332px;
+}
+.page-settlement .settingWithdrawal-region .widget-account-pretty .widget-account-pretty-input {
+    position: relative;
+}
+.page-settlement .settingWithdrawal-region .type-content input {
+    width: 310px;
+    border-radius: 2px;
+    padding: 8px 10px;
+    font-size: 12px;
+}
+.page-settlement .settingWithdrawal-region .widget-account-pretty .widget-account-pretty-input .widget-account-pretty-text {
+    position: absolute;
+    top: -36px;
+    display: none;
+    background: #fffdca;
+    border: 1px solid #facf66;
+    color: #dd0000;
+    width: 310px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+    font-size: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.page-settlement .settingWithdrawal-region .type-content input.sms {
+    width: 209px;
+}
+.page-settlement .settingWithdrawal-region .type-content button.sms-btn {
+    width: 105px;
+    height: 38px;
+    margin-left: -6px;
+    padding: 4px 8px;
+}
+.page-settlement .settingWithdrawal-region .type-content .controls p {
+    margin-top: 5px;
+}
+.page-settlement .settingWithdrawal-region .type-content .control-group {
+    margin-bottom: 20px;
+}
+.control-group.error .control-label, .control-group.error .help-block, .control-group.error .help-inline {
+    color: #b94a48;
+}
+.form-horizontal .control-group:hover .help-block,.form-horizontal .control-group:hover .help-desc{opacity:1;}
+.close {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #000000;
+    text-shadow: 0 1px 0 #ffffff;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+.alert .close {
+    position: relative;
+    top: -2px;
+    right: -21px;
+    line-height: 20px;
+}
+.alert, .alert h4 {
+    color: #666;
+}
+.notifications>div {
+    width: 400px;
+    position: relative;
+    text-align: center;
+    z-index: 10001;
+    margin: 5px 0px;
+    -webkit-animation: fadeInDown 0.3s linear;
+    -moz-animation: fadeInDown 0.3s linear;
+    animation: fadeInDown 0.3s linear;
+}
+.notify-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #FFF;
+}
+.notify-backdrop, .notify-backdrop.fade.in {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+.page-settlement .applyWithdrawal-region {
+    border: 1px solid #e5e5e5;
+}
+.page-settlement .applyWithdrawal-region .header {
+    font-size: 14px;
+    color: #333;
+    background: #f8f8f8;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 12px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.page-settlement .applyWithdrawal-region .form-horizontal {
+    padding: 30px 50px;
+}
+.page-settlement .applyWithdrawal-region .form-horizontal .control-group {
+    margin-bottom: 20px;
+}
+.money {
+    color: #FF6600;
+}
+.page-settlement .applyWithdrawal-region .form-horizontal .money {
+    font-size: 24px;
+}
+.page-settlement .applyWithdrawal-region .form-horizontal .bank-group li.bank {
+    width: 545px;
+    height: 46px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+    line-height: 46px;
+    font-size: 14px;
+    padding: 0 15px;
+}
+.page-settlement .applyWithdrawal-region .form-horizontal .bank-group li.bank.active {
+    border: 1px solid #FF6600;
+    background-color: #fff9f1;
+}
+.dropdown--right, .dropdown-right {
+    display: inline-block;
+}
+.page-settlement .applyWithdrawal-region .form-horizontal .bank-group li.bank .dropdown {
+    visibility: hidden;
+    float: right;
+}
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: top;
+    border-top: 4px solid #000000;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    content: "";
+}
+.dropdown .caret {
+    margin-top: 8px;
+    margin-left: 2px;
+}
+.page-settlement .applyWithdrawal-region .form-horizontal .bank-group li.bank .dropdown .caret {
+    margin-top: 21px;
+}
+.page-settlement .applyWithdrawal-region .form-horizontal .bank-group li.bank .dropdown .dropdown-menu {
+    min-width: 80px;
+    text-align: center;
+    margin-top: -10px;
+}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 20px;
+    color: #333333;
+    white-space: nowrap;
+}
+.dropdown-menu>li>a {
+    padding: 3px 15px;
+}
+.page-settlement .applyWithdrawal-region .form-horizontal .bank-group li.bank .account_name {
+    float: right;
+}
+.page-settlement .applyWithdrawal-region .form-horizontal input {
+    padding: 6px 10px;
+}
+.page-settlement .applyWithdrawal-region .form-horizontal .control-group {
+    margin-bottom: 20px;
+}
+
+.page-settlement .applyWithdrawal-region .form-horizontal .period-group .controls {
+    padding-top: 5px;
+    font-size: 14px;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    /* display: none; */
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+.dropdown-menu {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+    min-width: 110px;
+    margin: 0;
+}
+.dropdown--right .dropdown-menu, .dropdown-right .dropdown-menu {
+    left: auto;
+    right: 0;
+    text-align: right;
+}
+.dropdown ol.dropdown-menu, .dropdown ul.dropdown-menu, .dropup ol.dropdown-menu, .dropup ul.dropdown-menu {
+    margin: 0;
+}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 20px;
+    color: #333333;
+    white-space: nowrap;
+}
+.dropdown-menu>li>a {
+    padding: 3px 15px;
+}
+.dropup, .dropdown {
+    position: relative;
+}
+.dropdown--right, .dropdown-right {
+    display: inline-block;
+}
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-submenu:hover>a,.dropdown-submenu:focus>a{
+    color:#ffffff;
+    background-image:-webkit-gradient(linear, left top, left bottom, from(#648bf5), to(#2866f2));
+    background-image:-webkit-linear-gradient(top, #648bf5, #2866f2);
+    background-image:-moz-linear-gradient(top, #648bf5, #2866f2);
+    background-image:linear-gradient(to bottom, #648bf5, #2866f2);
+    -webkit-box-shadow:#5a82eb 0px 1px 0px inset,#1758e7 0px -1px 0px inset;
+    box-shadow:#5a82eb 0px 1px 0px inset,#1758e7 0px -1px 0px inset;
+}
+.page-settlement .applyWithdrawal-region .form-horizontal .bank-group li.bank:hover{cursor:pointer;}
+.page-settlement .applyWithdrawal-region .form-horizontal .bank-group li.bank:hover .dropdown{visibility:visible;}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: top;
+    border-top: 4px solid #000000;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    content: "";
+}
+
+.caret {
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.popover-content > .js-content {
+    font-size: 12px;
+}
+.list-filter-form {
+    padding: 20px 0px 10px;
+    background: #f8f8f8;
+    border: 1px solid #f2f2f2;
+    margin-bottom: 0px;
+}
+.list-filter-form .control-label.select {
+    padding-top: 0;
+}
+.list-filter-form.form-horizontal .control-label {
+    width: 90px;
+    font-size: 12px;
+}
+.list-filter-form .ui-btn-primary {
+    margin-left: 28px;
+    margin-right: 10px;
+}
+.list-filter-form.form-horizontal .controls {
+    margin-left: 95px;
+}
+.trade-list .trade-list-nav {
+    margin: 15px 0;
+}
+.trade-list .trade-list-nav ul {
+    border-bottom: 1px solid #e5e5e5;
+    zoom: 1;
+}
+.trade-list .trade-list-nav li {
+    float: left;
+    margin-bottom: -1px;
+}
+.trade-list .trade-list-nav a {
+    display: inline-block;
+    min-width: 80px;
+    padding: 0 20px;
+    border-bottom: 2px solid transparent;
+    font-size: 14px;
+    line-height: 30px;
+    color: #333;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.trade-list .trade-list-nav li.active a {
+    border-bottom-color: #f60;
+}
+.trade-list .trade-list-nav ul:after {
+    content: "";
+    display: table;
+    clear: both;
+}

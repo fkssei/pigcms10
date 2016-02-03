@@ -1,0 +1,78 @@
+/* CSS Document */
+body{	font-family: "Microsoft YaHei"; font-size:12px; text-align:center; line-height:25px; width:100%;}
+*{	margin: 0;	padding: 0;}
+a:link {color: #151515;	text-decoration: none;}
+a:visited {	text-decoration: none;	color: #151515;}
+a:hover {text-decoration: none;	color: #62fe7f;}
+a:active {	text-decoration: none;	color: #151515;}
+form, input, button,img ,textarea,select{	border: 0;font-family: "Microsoft YaHei";  }
+button{background:transparent;}
+ul,li,ol{ padding:0; list-style:none; }
+ 
+i, em {  font-style: normal;}
+
+.header{ width:100%;  min-width:1210px;}
+.header_header{ width:100%; background:#ededed; height:30px; line-height:30px; font-size:12px; }
+.header .header_header .header_top{ width:1210px; margin:0 auto}
+.header .header_header .header_top:after{content:"";display:block;clear:both;} 
+.header .header_header .header_top .header_login{ float:left;}
+.header .header_header .header_top .header_login:after{content:"";display:block;clear:both;} 
+.header .header_header .header_top .header_login li{ float:left; padding-right:18px;}
+.header .header_header .header_top .header_login li a{ color:#6c6c6c }
+.header .header_header .header_top .header_login li a:hover{ color:#f63b3b }
+.header .header_header .header_top .header_login li a.header_login_cur{ color:#f63b3b}
+.header .header_header .header_top .header_list{ float:right;}
+.header .header_header .header_top .header_list:after{content:"";display:block;clear:both;} 
+.header .header_header .header_top .header_list li{ float:left;  padding-right: 18px;}
+.header .header_header .header_top .header_list li a{ color:#6c6c6c }
+.header .header_header .header_top .header_list li a:hover{ color:#ffba41 }
+.header .header_header .header_top .header_list li a.header_list_cur{ color:#ffba41}
+.header .header_header .header_top .header_list li span{  }
+
+.header .header_nav{ width:1210px; margin:0 auto; height:130px; padding:10px 0;}
+.header .header_nav:after{content:"";display:block;clear:both;} 
+.header .header_nav .header_logo{ width:235px; height:70px; float:left}
+.header .header_nav .header_logo img{ width:235px; height:70px; margin-top: 21px;}
+.header .header_nav .header_search{ float:left; width:486px; height:auto; margin-left:200px;  color:#fff; line-height:40px;  margin-top: 38px;}
+.header .header_nav .header_search form{width:486px; height:40px;  background:#00bb88;}
+.header .header_nav .header_search form:after{content:"";display:block;clear:both;} 
+.header .header_nav .header_search:after{content:"";display:block;clear:both;} 
+.header .header_nav .header_search .header_search_left{ float:left; width:65px;   cursor:pointer; position:relative;height:40px; }
+.header .header_nav .header_search .header_search_left .header_search_left_list{ position:absolute; border: 1px solid #e5e5e5; display:none ;  left: 0;  top: 40px;}
+.header .header_nav .header_search .header_search_left:hover .header_search_left_list{ display: block}
+.header .header_nav .header_search .header_search_left .header_search_left_list li{  border-top: 1px solid #efefef; width:65px; background:#fff; line-height:30px;}
+.header .header_nav .header_search .header_search_left .header_search_left_list li a{ color:#999; }
+.header .header_nav .header_search .header_search_left .header_search_left_list li:hover{ background:#efefef}
+.header .header_nav .header_search .header_search_left span{ display:block; width:15px; height:15px; background:url(../images/weidian_icon.png) 528px -127px; float:right; margin:9px 10px 0 -13px; _margin:0;_display: none}
+.header .header_nav .header_search .header_search_left:hover span{background:url(../images/weidian_icon.png) 510px -127px;}
+.header .header_nav .header_search .header_search_left:after{content:"";display:block;clear:both;} 
+.header .header_nav .header_search_input{ width:346px; height:32px; float:left;padding-top: 4px;}
+.header .header_nav .header_search_input input{ width:336px; height:32px; *margin-top:-8px;_margin-top:0px; padding-left:10px; font-size:12px;}
+.header .header_nav .header_search_button{ width:65px; height:40px; float:left;}
+.header .header_nav .header_search_button button{ width:65px; height:40px;  background: transparent;  color: #fff;  line-height: 40px; text-align:left;}
+.header .header_nav .header_search_button span{display:block; width:20px; height:20px; background:url(../images/weidian_icon.png) 569px -125px; float:left;  margin:11px 4px;}
+.header .header_nav .header_search .header_search_button:after{content:"";display:block;clear:both;} 
+.header .header_nav .header_search .header_search_list{ float:right;}
+.header .header_nav .header_search .header_search_list li{ float:left; padding-left:20px;}
+.header .header_nav .header_search .header_search_list li a{ color:#6c6c6c}
+.header .header_nav .header_search .header_search_list li a:hover{ color:#00bb88; }
+.header .header_nav .header_search .header_search_list:after{content:"";display:block;clear:both;} 
+.header .header_nav .header_shop{ float:right; margin-right:52px; width:130px; height:130px;}
+.header .header_nav .header_shop img{width:130px; height:130px;}
+
+.footer1 { left: 0; width: 100%; min-width: 1210px; bottom: 0px; background: #f4f4f4; color: #656565; margin-top: 100px; padding: 35px 0;  height: 140px;}
+.footer_txt { width: 1210px; margin:0 auto;}
+.footer_list {  display: inline-block;margin: 0 auto;  margin-bottom: 20px;}
+.footer_list{*display: inline;}
+.footer_list ul:after{ content:""; height:0; clear:both; display:block}
+.footer_list span { padding: 0 10px}
+.footer_list li { float: left}
+.footer_txt { width: 1210px; text-align: center}
+/*@media(max-width:1500px) {
+	.header{ width:100%;  min-width:1000px;}
+	.header .header_header .header_top{ width:1000px; margin:0 auto}
+	.header .header_nav{ width:1000px;}
+	.header .header_nav .header_search { margin-left:43px;}
+	.footer1 {  min-width: 1000px;}
+	.footer_txt { width: 1000px;}
+	  }*/

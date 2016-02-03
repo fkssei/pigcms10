@@ -1,0 +1,53 @@
+body{	font-family: "Microsoft YaHei"; font-size:12px; text-align:center; line-height:30spx; width:100%;}
+*{	margin: 0;	padding: 0;}
+form, input, button,img ,textarea,select{	border: 0;font-family: "Microsoft YaHei";  }
+button{background:transparent;}
+ul,li,ol{ padding:0; list-style:none; }
+.shop_pingjia{width:100%;}
+.shop_pingjia_form_list {
+  width: 100%;
+  background: none;
+  border-bottom: 1px solid #d9d9d9;
+  line-height: 30px;
+  padding: 10px 0;
+}
+.appraise_li-list_top:after {
+  content: "";
+  height: 0;
+  clear: both;
+  display: block;
+}
+.shop_pinjiga_title{color:#232323; font-size:18px; margin-left:10px; margin-bottom: 5px; text-align:left;}
+.shop_pinjgia_form{width:100%; border:1px solid #d9d9d9; padding-bottom: 22px;}
+.shop_pinjgia_form:after{content:""; height:0; clear:both; display:block}
+.shop_pingjia_form_list_zong{float:left;  margin-left: 2%; text-align:right;}
+.shop_pingjia_form_list ul{float:left;   margin-left:10px;  width: 78%;}
+.shop_pingjia_form_list .appraise_li-list_top_icon  span{ padding: 0 7px;}
+.shop_pingjia_form_list ul li input{float:left; margin-top: 10px;}
+.shop_pingjia_form_list ul li label{float:left;}
+.shop_pingjia_form_list ul:after{content:""; height:0; clear:both; display:block}
+.shop_pingjia_form_list ul.biaoqian li{border:1px solid #d9d9d9; padding: 0 10px; margin: 5px 10px 0 0; color: #191919; font-size: 12px;}
+.shop_pingjia_form_list ul.biaoqian li:hover,.shop_pingjia_form_list ul.biaoqian li.biaoqian_curn{border:1px solid #00bb88;}
+.shop_pingjia_form_list ul li{float:left; color:#767676;}
+.shop_pingjia_form_list ul li.zong{border:0;}
+.shop_pingjia_form_list ul li .pingjia_icon{float:left; padding: 4px 2px 0 2px;}
+.shop_pingjia_form_list ul li .pingjia_txt{float:left;}
+.shop_pinjgia_form .textarea{border-bottom:1px solid #d9d9d9;}
+.shopping_comment .shop_pingjia_form_list{width:100%; background:none; border-bottom:1px solid #d9d9d9;line-height:30px; padding:10px 0;}
+.shop_pingjia .form_textarea{width:100%; height:194px;}
+.shop_pingjia .button{color:#767676; margin:15px ;}
+.shop_pingjia .button_txt{float:left; margin-left:20px;}
+.shop_pingjia .button_txt span{margin-left:5px;}
+.shop_pingjia .form_button{line-height:34px; text-align:center; width:67px; height:34px; color:#fff; background:#00BB88; border-radius:5px; overflow:hidden; float:right; font-size: 16px;
+ font-weight: bold;}
+.shop_pingjia_list{float:left; width: 100%;}
+.shop_pingjia_list:after{content:""; height:0; clear:both; display:block}
+.shop_pinjgia_form .updat_pic{width:50px; height:50px; line-height:100px; color:#6c6c6c; float:left;  position:relative;}
+.shop_pinjgia_form .updat_pic p{display: block; height: 25px; position: absolute; bottom: 11px; right: 5px; text-align: right;}
+.shop_pinjgia_form .ehdel_upload{width:50px; height:50px; filter: alpha(opacity=0); -moz-opacity: 0; opacity: 0; margin-top:-50px;}
+.shop_pinjgia_form .baodiv3{width: 100%;}
+.shop_pingjia_list ul{float:left; width:100%;}
+.shop_pingjia_list ul:after{content:""; height:0; clear:both; display:block}
+.shop_pingjia_list ul li{float:left; width:50px; height:50px; border:1px solid #d9d9d9; margin-right:10px; margin-bottom:10px; position: relative;}
+.shop_pinjgia_form .shop_pingjia_list ul li span{background:url(../images/weidian_icon.png) 193px -412px; width:15px; height:15px; position:absolute; top:0; right:0;}
+.shop_pingjia_list ul li img{width:100%;  }

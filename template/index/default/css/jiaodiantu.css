@@ -1,0 +1,14 @@
+/* 懒人图库 搜集整理 www.lanrentuku.com */
+/*本例css*/
+.www51buycom { width: 730px; height: 454px;  position: relative; overflow:hidden; margin:12px 250px 0 220px; }
+
+/*数字按钮样式*/
+.www51buycom .num { overflow:hidden; height: 25px; position: absolute; bottom:12px; left: 15px; zoom:1; z-index:3 }
+.www51buycom .num li { width: 25px; height: 25px; line-height: 25px; text-align: center; font-weight: 400; font-family: "微软雅黑", Arial; color: #FFFFFF; background: #444444; margin-right: 10px; border-radius:50%; cursor:pointer; float: left; }
+.www51buycom .num li.on { background: #FF7700; } /*当前项*/
+
+/*上一个  下一个*/
+.www51buycom .prev,
+.www51buycom .next { display: none; width: 40px; height: 100px; background: url(../images/btn.png) no-repeat; position: absolute; top: 165px;}
+.www51buycom .prev { left: 0; }
+.www51buycom .next { right: 0; background-position: right }

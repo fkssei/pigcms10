@@ -1,0 +1,94 @@
+/* CSS Document */
+
+/*登录页面*/
+.gn_tour_identf{border:1px dashed #cd66cc;color:#cd66cc}
+.gt_tour_identf{border:1px dashed #fa943e;color:#fa943e}.zzy_tour_identf{border:1px dashed #77b800;color:#77b800}
+.gs_tour_identf{border:1px dashed #2bc4b6;color:#2bc4b6}.jd_tour_identf{border:1px dashed #6c3a77;color:#6c3a77}.qz_tour_identf{border:1px dashed #fd2caa;color:#fd2caa}
+.dd_tour_identf{border:1px dashed #be9272;color:#be9272}.zjy_tour_identf{border:1px dashed #8d6cd1;color:#8d6cd1}.yl_tour_identf{border:1px dashed #0078c9;color:#0078c9}
+.backToTop,.esq_over,.add_scroll,.sdd_advice,.add_weChat,.add_app{background:url(//ssl1.tuniucdn.com/img/20140417/common/right_suspension.png) no-repeat}
+.right_scroll{width:40px;height:180px;position:fixed;_position:absolute;right:20px;bottom:0px;_bottom:"auto"}
+.backToTop{display:block;width:40px;height:40px;background-position:0 -135px;color:#fff;font-size:12px;text-align:center;cursor:pointer;margin-bottom:5px}
+.backToTop:hover{background-position:-50px -135px}
+.esq{display:block;width:46px;height:117px;background:url(//ssl4.tuniucdn.com/img/20131120/common/esq_new.gif) no-repeat;color:#fff;font-size:12px;text-align:center;cursor:pointer;margin:0 0 5px 0}.zaixiankefu{display:block;width:46px;height:117px;background:url(//ssl3.tuniucdn.com/img/20131120/common/esq_new.gif) no-repeat;color:#fff;font-size:12px;text-align:center;cursor:pointer;margin:0 0 5px 0}
+.esq_over{width:40px;height:40px;background-position:-150px 0}.esq_over:hover{background-position:-50px 0}#bdshare{z-index:100!important}
+.add_scroll{display:block;width:40px;height:40px;color:#fff;font-size:12px;text-align:center;cursor:pointer;margin:0 0 5px 0}.add_scroll{background-position:0 -89px}
+.add_scroll:hover{background-position:-50px -89px}.sdd_advice{display:block;width:40px;height:40px;color:#fff;font-size:12px;text-align:center;cursor:pointer;margin:0 0 5px 0;background-position:0 -182px}.sdd_advice:hover{background-position:-50px -182px}.add_weChat{display:block;width:40px;height:40px;color:#fff;font-size:12px;text-align:center;cursor:pointer;margin:0 0 5px 0;background-position:0 -229px}
+.add_weChat:hover{background-position:-50px -229px}
+.add_app{display:block;width:40px;height:40px;color:#fff;font-size:12px;text-align:center;cursor:pointer;margin:0 0 5px 0;background-position:0 -276px}
+.add_app:hover{background-position:-50px -276px}.weChat_pop{width:101px;height:130px;border:1px solid #e4e4e4;padding:10px 0 0 3px;background:#fff;display:none}
+.list_view .icon_nrzx{background-position:0 0;width:62px;height:66px}.list_view .icon_remai{background-position:0 -66px;width:52px;height:54px}
+.list_view .icon_tuijian{background-position:0 -119px;width:52px;height:54px}.list_view .icon_tejia{background-position:0 -174px;width:52px;height:54px}
+.list_view .icon_bashi{background-position:0 -228px;width:66px;height:68px}.list_view .icon_nrzz{background-position:0 -297px;width:63px;height:65px}
+.list_view .icon_nrgt{background-position:0 -362px;width:63px;height:65px}.list_view .icon_zjy{background-position:0 -427px;width:63px;height:65px}
+.nrzx_prom_ico{background-position:0 -522px;width:76px;margin-left:2px}
+.rm_prom_ico{background-position:0 -537px;width:46px;margin-left:2px}
+.tj_prom_ico{background-position:0 -552px;width:47px;margin-left:2px}.tjian_prom_ico{background-position:0 -567px;width:47px;margin-left:2px}
+.xsyh_prom_ico{background-position:0 -582px;width:76px;margin-left:2px}.zjy_prom_ico{background-position:0 -597px;width:60px;margin-left:2px}
+.nrzz_prom_ico{background-position:0 -612px;width:76px;margin-left:2px}.bszz_prom_ico{background-position:0 -627px;width:85px;margin-left:2px}
+.wifi_prom_icon{background-position:0 -657px;width:73px;margin-left:2px}
+.xh_prom_icon{background-position:0 -672px;width:47px;margin-left:2px}
+.tn_fontface{font-family:'tn_fontface';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.header{width:100%}.header_common{box-shadow:1px 1px 5px #eee;overflow:hidden;padding:20px 0}.header_inner{width:1200px;margin:0 auto}.index1000 .header_inner{width:1000px}.header_common .site_logo{float:left}
+.header_common .site_logo img{display:block;height:70px}
+.header_common .site_phone{float:right}
+.header_common .site_phone img{display:block}input[type="text"],input[type="password"],.login-table .error,.login-tab li b,.login-card-close{background:url(../images/ico/login_icon.png) no-repeat}.partner-login li a,.change-btn,.code-error,.refresh-code b{background:url(//ssl1.tuniucdn.com/img/20141219/login_v2/login_theme.png) no-repeat}#head_bg{width:100%;height:95px;background:#fff}.head_center{width:1000px;height:95px;margin:0 auto;position:relative}.wrap{height:560px;background:url();background-repeat:no-repeat;background-position:top center;margin:0 auto}.offer_service{display:none}.hidden{display:none}
+.cgrey2,a.cgrey2:link,a.cgrey2:visited{color:#999}.content{width:1200px;height:560px;margin:0 auto;position:relative}
+.logo{width:180px;height:55px;padding-top:30px}.cent_link a{display:none;width:1200px;height:560px}.clearfix{clear:both;zoom:1}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}.top_right{position:absolute;bottom:10px;right:0}
+.top_right a{padding:0 2px}.input_div{border:1px solid #e0e0e0;height:32px;width:280px;position:relative}
+.err .input_div{border-color:#ff5b78}input[type="text"],input[type="password"]{border:0 none;height:22px;_height:28px;line-height:22px;display:inline-block;padding:0;padding:5px 0 5px 40px;width:240px}.index1200 .input_div{width:330px}.index1200 input[type="text"],.index1200 input[type="password"]{width:290px}.txt{border:1px solid #dbdfe6;border-top:1px solid #abadb3;height:32px;line-height:32px;display:inline-block}.hover .input_div{border:1px solid #c4f269}.txt-mm{width:172px;border:1px #aaa9a6 solid;font-size:14px}.txt-l{width:202px}.txt-s{width:150px}.identify_box{position:absolute;right:5px;top:4px}input.txt-s{width:140px}.index1200 input.txt-s{width:190px}.code-len{display:inline-block;border-left:1px solid #e0e0e0;background:#f9f9f9;width:95px;height:32px;line-height:32px;text-align:center}
+.send-code,.send-code-again{display:none}.code-error{height:53px;padding:5px 0 0 60px;background-position:-137px -85px;font-family:"microsoft yahei";color:#333;font-size:12px}
+.code-error .t1{font-size:20px;margin-bottom:5px}.login-content{position:absolute;top:30px;right:40px;z-index:10;width:460px;height:490px;overflow:hidden;box-shadow:0 1px 4px rgba(51,51,51,0.2)}.login-box-inner{background:#fff;width:460px}.index1000 .login-box-inner{width:420px}.login-tab{height:45px;color:#fff;font-size:18px;line-height:45px;margin-bottom:15px;font-family:"microsoft yahei"}.login-tab li{float:left;height:45px;width:50%;text-align:center;cursor:pointer;position:relative;overflow:visible;background:#e6f7df;color:#89c86f}.login-tab .cur{width:50%;color:#fff;cursor:default;background:#43b413}.login-tab li b{display:none;width:12px;height:4px;background-position:0 0;position:absolute;left:48%;top:45px}.login-tab .cur b{display:block}
+.login-tab-content{clear:both;margin:auto;padding:auto;/*padding-left:65px;*/font-size:12px;/*border-bottom:1px solid #ededed*/}
+.login-table{margin:auto;padding:auto;border:0;border-collapse:collapse;border-spacing:0}
+.login-table th,.login-table td{vertical-align:middle;height:44px;line-height:24px;font-family:"microsoft yahei"}.login-table th.line2,.login-table td.line2{}.login-table th.line3,.login-table td.line3{overflow:hidden;vertical-align:top;line-height:18px}.login-table th{width:55px;text-align:right;font-weight:normal}.login-table th label{padding-right:5px}.search_psw a{font-weight:bold;color:#f60;display:inline-block;margin-bottom:5px}.login-table .error{display:inline-block;width:250px;height:24px;line-height:24px;padding-left:30px;color:#7f5d5d;background-position:0 -637px}.search_psw{color:#666;float:right}.search_psw:hover{color:#39c34c}.sub{display:block;background:#f80;text-align:center;font:18px "microsoft yahei";color:#fff;height:40px;line-height:40px;border-radius:3px;width:100%;border:0 none;cursor:pointer}
+.login-table td{height:65px;}
+.now_register{color:#666;font-size:14px;padding-top:10px}.now_register a{color:#f60}.now_register p{margin-top:5px}
+.now_register .use_card{font-size:14px;color:#39c34c;text-decoration:underline}
+.line_1 input,.line_5 input{background-position:12px -12px}
+.line_2 input,.line_6 input{background-position:12px -52px}
+.line_3 input,.line_7 input{background-position:12px -91px}
+.line_4 input,.line_10 input{background-position:12px -127px}
+.line_1.hover input,.line_5.hover input{background-position:12px -203px}
+.line_2.hover input,.line_6.hover input{background-position:12px -248px}
+.line_3.hover input,.line_7.hover input{background-position:12px -293px}
+.line_4.hover input,.line_10.hover input{background-position:12px -335px}
+.login-table .login-tip{height:24px;line-height:24px}
+.line_8 input{background-position:12px -128px}
+.line_8.hover input{background-position:12px -336px}
+.line_9 input{background-position:12px -91px}
+.line_9.hover input{background-position:12px -293px}
+.line_10 input{background-position:12px -52px}
+.line_10.hover input{background-position:12px -248px}
+.line_1.err input,.line_5.err input{background-position:12px -419px}
+.line_2.err input,.line_6.err input{background-position:12px -465px}.line_3.err input,.line_7.err input{background-position:12px -509px}
+.line_8.err input{background-position:12px -553px}.line_9.err input{background-position:12px -509px}.line_10.err input{background-position:12px -465px}
+.partner-login{color:#666;line-height:24px;overflow:hidden}.partner-login li{float:left;margin:0;width:52px;margin-right:12px;text-align:center}
+.partner-login li a{display:inline-block;width:32px;height:32px;margin-bottom:3px}.partner-login li span{display:inline-block;text-align:center;visibility:hidden}
+.partner-login li.cur span{visibility:visible}.partner-login li.sina a{background-position:0 0}.partner-login li.kw a{background-position:-40px 0}
+.partner-login li.qq a{background-position:-160px 0}.partner-login li.m139 a{padding-left:30px;background-position:0 -130px}
+*html #overlay{position:absolute}.partner-login li.tszicon a{background-position:-80px 0}
+#TN-footer{width:1000px;margin:25px auto;color:#777}#TN-links{margin-top:10px}#TN-links a{margin:0 5px}
+#TN-footer a:link,#TN-footer a:visited,#TN-footer a:hover,#TN-faq a:link,#TN-faq a:visited,#TN-faq a:hover{color:#777;text-decoration:none}
+#TN-footer p{line-height:18px;text-align:center}.partner-login{font-family:"microsoft yahei"}.partner-login p{font-size:14px;color:#8c8c8c;margin-bottom:10px}
+.change-btn{position:absolute;bottom:0;right:0;width:51px;height:53px;overflow:hidden;z-index:10;cursor:pointer}.wx-change-btn{background-position:0 -83px}
+.pc-change-btn{background-position:-76px -83px}.index1000 .content,.index1000 .cent_link a{width:1000px}.index1000 .login-box{width:420px;right:15px}
+.index1000 .login-content{width:420px}.login-pop-wrap{position:absolute;top:30px;right:40px;height:490px;display:none;background:#fff;box-shadow:0 1px 4px rgba(51,51,51,0.2)}
+.login-pop-wrap,.login-pop-wrap .login-box-inner{width:460px;overflow:hidden}.index1000 .login-pop-wrap,.index1000 .login-pop-wrap .login-box-inner{width:420px}
+.login-pop-wrap .login-box-inner{position:relative}.login-pop-wrap .login-tab li.cur{width:100%;background:#43b413;color:#fff}
+.login-card-close{position:absolute;top:17px;right:17px;width:14px;height:14px;background-position:0 -676px}.login-card-wrap .line_1 input{background-position:12px -165px}
+.login-code-wrap .login-tab-content{padding-left:125px;font-size:14px;font-family:"microsoft yahei";color:#666}.index1200 .login-code-wrap .login-tab-content{padding-left:150px}
+.login-weixin-box{width:164px;height:164px;padding:7px;background:#fff;margin-bottom:15px}.login-code-wrap .login-tab-content{border:0 none}
+.login-code-wrap .login-tip{height:65px;margin-top:20px}.refresh-code{margin:25px 0 0 35px}.refresh-code a{font-size:16px;color:#39c34c;font-family:"microsoft yahei";line-height:20px}
+.refresh-code b{display:inline-block;width:16px;height:20px;background-position:0 -139px;vertical-align:middle;margin-right:7px}#errmsg{margin-top: 1px;max-width: 185px;}
+.head_notice_tips{font-size: 18px;color: red;float: left;font: 20px/47px 'microsoft yahei';height: 47px;padding-left: 20px;position: relative;top: 10px;}
+
+.oauth-wrapper { margin:auto;padding:auto; margin-top: 40px;  width: 340px;  }
+.oauth-wrapper h3 {  color: #999;  font-size: 12px; font-weight: 400;  margin-bottom: 5px;  }
+.oauth-wrapper .title-wrapper {  border-bottom: 1px solid #ccc;  height: 0;  margin-bottom: 30px;  overflow: visible;  position: relative;  width: 340px;  }
+.oauth-wrapper .title {  background: #fff none repeat scroll 0 0;  color: #666;  font-size: 12px;  font-weight: 400;  left: 50%;  margin-left: -65px;  position: absolute;  text-align: center;  top: -10px;  width: 120px;  }
+.oauth-wrapper .oauth__link--weixin {  background: rgba(0, 0, 0, 0) url("../images/weixin_48.png") repeat scroll 0 0;  display: inline-block;  float: none;  height: 48px;  width: 48px;  }
+
+
+
+
+/*注册页面*/

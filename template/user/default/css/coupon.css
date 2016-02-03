@@ -1,0 +1,249 @@
+.ui-nav-table {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.ui-nav-table ul {
+    zoom: 1;
+    margin-bottom: -1px;
+    margin-left: 1px;
+}
+.pull-left {
+    float: left;
+}
+.ui-nav-table li {
+    float: left;
+    margin-left: -1px;
+}
+
+.ui-nav-table li.active a {
+    border-color: #ccc #ccc #fff;
+
+    background: #fff;
+    color: #07d;
+}
+
+.ui-nav-table li a {  display: inline-block;  padding: 0 12px;  line-height: 40px;  color: #333;  border: 1px solid #ccc;  background: #f8f8f8;  min-width: 80px;  text-align: center;  -webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  box-sizing: border-box;  }
+
+.page-present .app-present .present-sub-title {
+    padding: 10px 30px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.page-present .control-group {
+    position: relative;
+}
+
+.page-present .app-present .control-group .w30 {
+    width: 30px;
+}
+
+.ui-block-head-help {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+}
+.soldout-help {
+    top: 7px;
+    left: 215px;
+}
+.ui-block-head-help>a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 18px;
+    border-radius: 8px;
+    font-size: 12px;
+    text-align: center;
+    background: #bbb;
+    color: #fff;
+}
+.ui-block-head-help>a:after {
+    content: "?";
+}
+.soldout-help>a:hover{background:#4b0;}
+.popover-help-notes .popover-content {
+    line-height: 18px;
+}
+
+.controls .add-present {
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0;
+    background: #fff;
+}
+
+.popover.right .arrow {
+    top: 50%;
+    left: -10px;
+    margin-top: -5px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid #000000;
+}
+.popover.right .arrow:after {
+    bottom: -10px;
+    left: 1px;
+    border-right-color: #ffffff;
+    border-left-width: 0;
+}
+
+a {
+    color: #07d;
+    text-decoration: none;
+}
+
+.controls .ui-btn-success {
+    color: #fff;
+    background: #4b0;
+    border-color: #3da900;
+}
+
+
+.ui-btn-success:hover{
+    background: #55D00F;
+    color: #fff;
+}
+
+
+.ump-select-box {
+    width: 790px;
+    border: 1px solid #ddd;
+    margin: 0 25px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.ump-select-search {
+    padding: 10px 20px 10px;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+}
+
+.ump-select-goods .ui-table tr td {
+    border-bottom: 1px dashed #ddd;
+    vertical-align: middle;
+}
+
+.ump-select-search select {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.ump-select-search input {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.ump-select-goods .goods-meta a {
+    color: #6289ff;
+}
+
+.ump-select-footer {
+    padding: 0 20px 0 10px;
+}
+
+.ui-table.ui-table-list {
+    border: none;
+}
+
+.control-group table.reward-table{background:#fff;width:100%}
+.control-group .reward-table-wrap {
+    padding-left: 50px;
+}
+.control-group .reward-table tr {
+    border: 1px solid #ddd;
+}
+.control-group .reward-table tr th {
+    line-height: 36px;
+    background: #fff;
+}
+.control-group .reward-table .controls .checked-status {
+    margin-top: 10px;
+}
+.control-group table.reward-table tr td .reward-controls {
+    padding-left: 20px;
+    line-height: 40px;
+}
+.app-reward .label-text {
+    line-height: 24px;font-size:14px;
+}
+.ump-select-tab {
+    width: 790px;
+    margin-left: 50px;
+    margin-bottom: -1px;
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+}
+.js-goods-box{display:none}
+.js-goods-box .ui-nav-tab {width:790px;  border-bottom: 1px solid #ddd;  margin-bottom: 15px;  font-size: 14px;  font-weight: bold;  zoom: 1;  }
+.js-goods-box .ump-select-tab .ui-nav-tab {  margin-bottom: 0;  border-bottom: none;  }
+
+.ui-nav-tab>li {  position: relative;  display: block; float: left;text-align: center;margin-bottom: -1px;  }
+.ump-select-tab .ui-nav-tab li.active a, .ump-select-tab .ui-nav-tab li.active a:hover {  height: 24px;  line-height: 24px;  border-bottom: 2px solid #f60;  }
+.ump-select-tab .ui-nav-tab li a {  width: 120px;  border-top: 0;  height: 25px;  line-height: 25px;  padding: 8px 20px;  }
+.ump-select-tab .ui-nav-tab>li {  width: auto  }
+.ump-select-tab .ui-nav-tab{padding-top: 0px;}
+.add-reward-toolbar{display:none}
+.app-reward .ump-select-box{margin-left:50px}
+.reward-setting  .controls span { line-height: 32px;  }
+.replace-status{display:none}
+
+
+/*优惠券*/
+.page-tradeincard .ump-title {  line-height: 40px;  padding: 0 20px;  margin: 10px auto;  font-size: 14px;  background: #f2f2f2;  }
+.app-design .app-preview {  position: relative;  float: left;  width: 350px;  border: 1px solid #e5e5e5;  border-bottom-width: 0;  -webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  box-sizing: border-box;  background: #fff;  border-radius: 18px 18px 0 0;  }
+.app-design.without-add-region .app-preview {  border-bottom-width: 1px;  padding-bottom: 100px;  border-radius: 18px;  }
+.app-design .app-preview .app-header {  height: 70px; background: url("../images/iphone_head.png") no-repeat center center;  }
+.app-design .app-preview .app-entry {  width: 320px;  margin: 0 auto;  padding-bottom: 11px;  min-height: 200px;  border: 1px solid #c5c5c5;  background: #f9f9f9;  }
+.app-design.without-add-region .app-preview .app-entry {  padding-bottom: 0;  }
+.app-design .app-preview .app-config .app-field h1 {  padding: 18px 60px 0 60px;  height: 46px;  line-height: 46px;  font-size: 16px;  color: #fff;  font-weight: bold;  text-align: center;  background: url("../images/titlebar.png") no-repeat;  }
+.app-design .app-preview .app-config .app-field h1 span {  display: inline-block;  height: 46px;  width: 200px;  text-overflow: ellipsis;  white-space: nowrap;  overflow: hidden;  }
+.page-tradeincard .ump-coupon-detail-wrap {  padding: 20px 10px 10px;  }
+.ump-coupon-detail { border-radius: 4px 4px 0 0;color: #fff; background-color: #e33c77;  }
+.ump-coupon-header {  line-height: 1.5em;  font-size: 15px;  text-align: center;  }
+.ump-coupon-detail .inner {  margin: 0 5px;  border-bottom: 1px dashed rgba(255,255,255,0.4);  }
+.ump-coupon-header .inner {  position: relative;  padding: 20px 0 10px;  background: transparent url("../images/dot_line.png") top left repeat-x;  }
+.ump-coupon-body {  text-align: center;  }
+.ump-coupon-body .inner {  padding: 19px 0 5px;  }
+.ump-coupon-value {  font-family: "Arial";  }
+.ump-coupon-value>span {  vertical-align: baseline;  }
+.ump-coupon-body .ump-coupon-value>span {  font-size: 24px;  line-height: 56px;  }
+.ump-coupon-value>i {  font-style: normal;  vertical-align: baseline;  }
+.ump-coupon-body .ump-coupon-value>i {  font-size: 56px;  line-height: 56px;  }
+.ump-coupon-footer {  font-size: 13px;  line-height: 20px;  }
+.ump-coupon-footer .inner {  padding: 20px 10px 25px;  border-bottom: 0px none;  }
+.ump-coupon-desc {  margin: 0 0 10px;  }
+.ump-coupon-footer .ump-coupon-desc {  margin-bottom: 3px;  }
+.ump-coupon-action {  color: #fff;  background-color: #32bbfa;  border-radius: 0 0 3px 3px;  text-align: center;  }
+.ump-coupon-action.take-coupon-success {  background-color: #7dd668;  }
+.page-tradeincard .ump-coupon-action {  border-radius: 0;  }
+.ump-coupon-action .inner {  padding: 28px 0 20px;  background: transparent url("../images/dot_line_red.png") top left repeat-x;  border-bottom: 0px none;  }
+.ump-coupon-action.take-coupon-success .inner {  background: none;  border-top: 1px dashed rgba(255,255,255,0.4);  }
+.ump-coupon-action .ump-coupon-item-button {  display: inline-block;  padding: 8px 24px;  font-size: 14px;  line-height: 14px;  border-radius: 3px;  color: #fff;  background-color: #ed203c;  margin: 0;  }
+.ump-coupon-action a {  color: #fff;  font-size: 13px;  }
+.ump-coupon-action a+a {  margin-left: 20px;  }
+.app-design.without-add-region .app-preview:after {  position: absolute;  content: '';  bottom: 20px;  left: 145px;  width: 60px;  height: 60px;  border: 1px solid #ddd;  border-radius: 30px;  }
+/*优惠券右侧*/
+.app-design .app-sidebar {  position: relative;  float: left;  width: 465px;  margin-left: 20px;  padding-bottom: 20px;  font-size: 14px;  }
+.app-design .app-sidebar .arrow, .app-design .app-sidebar .arrow:after {  width: 0px;  height: 0px;  border-style: solid;  border-width: 8px 10px 8px 0;  border-color: transparent #d1d1d1 transparent transparent;  position: absolute;  left: -10px;  top: 19px;  }
+.app-design .app-sidebar .arrow:after {  content: "";  border-right-color: #f8f8f8;  left: 1px;  top: -8px;  }
+.app-design .app-sidebar .app-sidebar-inner {  padding: 12px 10px;  min-height: 28px;  background: #f8f8f8;  border-radius: 5px;  border: 1px solid #d1d1d1;  }
+.form-horizontal {  margin-bottom: 30px;  width: auto;  }
+.page-tradeincard .app-design .form-horizontal {  width: 458px;  }
+.page-tradeincard .app-design .app-sidebar .app-sidebar-inner .form-horizontal {  margin-bottom: 0;  }
+.page-tradeincard .config-title {  font-size: 14px;  font-weight: bold;  line-height: 30px;  margin-bottom: 10px;  border-bottom: 1px solid #e8e8e8;  }
+.page-tradeincard .app-design .app-sidebar .controls {  margin-left: 93px;  }
+.app-design .app-actions {  position: fixed;  bottom: 0;  width: 850px;  padding-top: 20px;  clear: both;  text-align: center;  z-index: 2;  }
+.app-design .app-actions .form-actions {  padding: 10px;  background-color: rgba(255,254,220,0.8);  margin: 0;  }
+
+.control-group.error .control-label, .control-group.error .help-block, .control-group.error .help-inline {  color: #b94a48;  }
+.input-append .add-on:last-child, .input-append .btn:last-child, .input-append .btn-group:last-child > .dropdown-toggle {  /* -webkit-border-radius: 0 4px 4px 0; */  -moz-border-radius: 0 4px 4px 0;  border-radius: 0 4px 4px 0;  }
+.ffzd input{border-radius:4px 0 0 4px}
+.ffzd .input-append .add-on{margin-left:-5px;}
+.js-random{display:none}
+.ui-table .cell-30 {  width: 30%;  }
+.ui-table .cell-20 {  width: 20%;  }
+.page-tradeincard .assign-goods-list .single-goods {  color: #333;  }

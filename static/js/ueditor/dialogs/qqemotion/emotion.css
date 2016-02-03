@@ -1,0 +1,95 @@
+.qq img {
+    background: transparent url(images/qq.gif?v=1.1) no-repeat scroll left top;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.smileytable td {
+    height: 25px;
+}
+
+#tabPanel {
+    margin-left: 5px;
+    overflow: hidden;
+}
+
+#tabContent {
+    float: left;
+    background: #FFFFFF;
+}
+
+#tabContent div {
+    display: none;
+    width: 480px;
+    overflow: hidden;
+}
+
+#tabIconReview.show {
+    left: 12px;
+    display: block;
+}
+
+.menuFocus {
+    background: #ACCD3C;
+}
+
+.menuDefault {
+    background: #FFFFFF;
+}
+
+#tabIconReview {
+    position: absolute;
+    left: 300px;
+    top: 14px;
+    z-index: 65533;
+    width: 90px;
+    height: 76px;
+}
+
+img.review {
+    width: 90px;
+    height: 76px;
+    border: 2px solid #9cb945;
+    background: #FFFFFF;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrapper .tabbody {
+    position: relative;
+    float: left;
+    clear: both;
+    padding: 5px;
+    width: 95%;
+    margin-top: 5px;
+}
+
+.tabbody table {
+    width: 100%;
+}
+
+.tabbody td {
+    border: 1px solid #BAC498;
+}
+
+.tabbody td span {
+    display: block;
+    zoom: 1;
+    padding: 0 4px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+    zoom: 1;
+}

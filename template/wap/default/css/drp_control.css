@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*---list loading---*/
+#wrapper {
+    position:absolute; z-index:1;
+    top:80px; bottom:0;
+    width:100%;
+    overflow:auto;
+}
+#pullup{width:140px;margin:0 auto;padding:10px 0;}
+#pulldown,
+#pullUp{width:140px;margin:0 auto;padding:10px 0;}
+.pullDownLabel,
+.pullUpLabel{display:inline-block;margin:0 auto;padding:10px;text-align:center;color:#999;font-size:14px;}
+.pullDownIcon,
+.pullUpIcon{display:inline-block;margin:0 auto;width:20px;height:20px;background-size:20px 20px;vertical-align:middle;}
+
+
+.idle .pullDownIcon {
+	display:none;
+    background-position:0 0;
+    /*chrome*/
+    -webkit-transform:rotate(0deg) translateZ(0);
+    -webkit-animation-name:idle;
+    -webkit-animation-duration:0;
+    /*ff*/
+    -moz-transform:rotate(0deg) translateZ(0);
+    -moz-animation-name:idle;
+    -moz-animation-duration:0;
+    /*opera*/
+    -o-transform:rotate(0deg) translateZ(0);
+    -o-animation-name:idle;
+    -o-animation-duration:0;
+}
+.idle .pullUpIcon  {
+	display:none;
+    background-position:0 0;
+    /*chrome*/
+    -webkit-transform:rotate(-180deg) translateZ(0);
+    /*ff*/
+    -moz-transform:rotate(-180deg) translateZ(0);
+    /*opera*/
+    -o-transform:rotate(-180deg) translateZ(0);
+}
+
+.flip .pullDownIcon {
+	display:inline-block;
+    background:url("../images/loading.GIF") no-repeat;
+	background-size:20px 20px;
+    background-position:0 0;
+    /*chrome*/
+    -webkit-transform:rotate(-180deg) translateZ(0);
+    -webkit-animation-name:idle;
+    -webkit-animation-duration:0;
+    /*ff*/
+    -moz-transform:rotate(-180deg) translateZ(0);
+    -moz-animation-name:idle;
+    -moz-animation-duration:0;
+    /*opera*/
+    -o-transform:rotate(-180deg) translateZ(0);
+    -o-animation-name:idle;
+    -o-animation-duration:0;
+}
+
+.flip .pullUpIcon {
+	display:inline-block;
+    background:url("../images/loading.GIF") no-repeat;
+	background-size:20px 20px;
+    background-position:0 0;
+    /*chrome*/
+    -webkit-transform:rotate(0deg) translateZ(0);
+    /*ff*/
+    -moz-transform:rotate(0deg) translateZ(0);
+    /*opera*/
+    -o-transform:rotate(0deg) translateZ(0);
+}
+
+.loading .pullDownIcon, #pullUp .loading .pullUpIcon {
+    background-position:0 100%;
+    display:inline-block;
+    background:url("../images/loading.GIF") no-repeat;
+	background-size:20px 20px;
+    /*chrome*/
+    -webkit-transform:rotate(0deg) translateZ(0);
+    -webkit-transition-duration:0ms;
+    -webkit-animation-name:loading;
+    -webkit-animation-duration:2s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    /*ff*/
+    -moz-transform:rotate(0deg) translateZ(0);
+    -moz-transition-duration:0ms;
+    -moz-animation-name:loading;
+    -moz-animation-duration:2s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-timing-function:linear;
+    /*opera*/
+    -o-transform:rotate(0deg) translateZ(0);
+    -o-transition-duration:0ms;
+    -o-animation-name:loading;
+    -o-animation-duration:2s;
+    -o-animation-iteration-count:infinite;
+    -o-animation-timing-function:linear;
+}
